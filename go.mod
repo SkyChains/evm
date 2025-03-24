@@ -1,4 +1,4 @@
-module github.com/luxdefi/evm
+module github.com/skychains/evm
 
 go 1.21
 
@@ -24,8 +24,8 @@ require (
 	github.com/holiman/bloomfilter/v2 v2.0.3
 	github.com/holiman/uint256 v1.2.4
 	github.com/kylelemons/godebug v1.1.0
-	github.com/luxdefi/netrunner v1.7.7
-	github.com/luxdefi/node v1.10.21
+	github.com/skychains/netrunner v0.0.1
+	github.com/skychains/chain v0.0.1
 	github.com/olekukonko/tablewriter v0.0.5
 	github.com/onsi/ginkgo/v2 v2.13.2
 	github.com/onsi/gomega v1.30.0
