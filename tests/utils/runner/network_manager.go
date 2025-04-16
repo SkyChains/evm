@@ -9,9 +9,9 @@ import (
 	"os"
 	"time"
 
-	runner_sdk "github.com/luxdefi/netrunner/client"
-	"github.com/luxdefi/netrunner/rpcpb"
-	runner_server "github.com/luxdefi/netrunner/server"
+	runner_sdk "github.com/SkyChains/netrunner/client"
+	"github.com/SkyChains/netrunner/rpcpb"
+	runner_server "github.com/SkyChains/netrunner/server"
 	"github.com/SkyChains/chain/ids"
 	"github.com/SkyChains/chain/utils/logging"
 	"github.com/SkyChains/chain/utils/wrappers"

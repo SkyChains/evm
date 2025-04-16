@@ -15,7 +15,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/luxdefi/netrunner/rpcpb"
+	"github.com/SkyChains/netrunner/rpcpb"
 	"github.com/SkyChains/chain/api/info"
 	"github.com/SkyChains/chain/ids"
 	"github.com/SkyChains/chain/snow/validators"
