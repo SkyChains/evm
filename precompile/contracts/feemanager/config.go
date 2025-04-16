@@ -4,9 +4,9 @@
 package feemanager
 
 import (
-	"github.com/luxdefi/evm/commontype"
-	"github.com/luxdefi/evm/precompile/allowlist"
-	"github.com/luxdefi/evm/precompile/precompileconfig"
+	"github.com/SkyChains/evm/commontype"
+	"github.com/SkyChains/evm/precompile/allowlist"
+	"github.com/SkyChains/evm/precompile/precompileconfig"
 	"github.com/ethereum/go-ethereum/common"
 )
 

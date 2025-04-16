@@ -4,8 +4,8 @@
 package txallowlist
 
 import (
-	"github.com/luxdefi/evm/precompile/allowlist"
-	"github.com/luxdefi/evm/precompile/precompileconfig"
+	"github.com/SkyChains/evm/precompile/allowlist"
+	"github.com/SkyChains/evm/precompile/precompileconfig"
 	"github.com/ethereum/go-ethereum/common"
 )
 

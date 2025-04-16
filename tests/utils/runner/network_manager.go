@@ -12,10 +12,10 @@ import (
 	runner_sdk "github.com/luxdefi/netrunner/client"
 	"github.com/luxdefi/netrunner/rpcpb"
 	runner_server "github.com/luxdefi/netrunner/server"
-	"github.com/luxdefi/node/ids"
-	"github.com/luxdefi/node/utils/logging"
-	"github.com/luxdefi/node/utils/wrappers"
-	"github.com/luxdefi/evm/plugin/evm"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/logging"
+	"github.com/SkyChains/chain/utils/wrappers"
+	"github.com/SkyChains/evm/plugin/evm"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/onsi/ginkgo/v2"
 	"github.com/onsi/gomega"
@@ -60,7 +60,7 @@ type NetworkManager struct {
 
 // NewDefaultANRConfig returns a default config for launching the netrunner manager
 // with both a server and client.
-// By default, it expands $GOPATH/src/github.com/luxdefi/node/build/ directory to extract
+// By default, it expands $GOPATH/src/github.com/SkyChains/chain/build/ directory to extract
 <<<<<<< HEAD
 // the Lux NodeExecPath and PluginDir arguments.
 // If the LUXD_BUILD_PATH environment variable is set, it overrides the default location for
@@ -68,7 +68,7 @@ type NetworkManager struct {
 func NewDefaultANRConfig() ANRConfig {
 	defaultConfig := ANRConfig{
 		LogLevel:            "info",
-		Lux NodeExecPath: os.ExpandEnv("$GOPATH/src/github.com/luxdefi/node/build/node"),
+		Lux NodeExecPath: os.ExpandEnv("$GOPATH/src/github.com/SkyChains/chain/build/node"),
 =======
 // the LuxdExecPath and PluginDir arguments.
 // If the LUXD_BUILD_PATH environment variable is set, it overrides the default location for
@@ -76,9 +76,9 @@ func NewDefaultANRConfig() ANRConfig {
 func NewDefaultANRConfig() ANRConfig {
 	defaultConfig := ANRConfig{
 		LogLevel:            "info",
-		LuxdExecPath: os.ExpandEnv("$GOPATH/src/github.com/luxdefi/node/build/node"),
+		LuxdExecPath: os.ExpandEnv("$GOPATH/src/github.com/SkyChains/chain/build/node"),
 >>>>>>> b36c20f (Update executable to luxd)
-		PluginDir:           os.ExpandEnv("$GOPATH/src/github.com/luxdefi/node/build/plugins"),
+		PluginDir:           os.ExpandEnv("$GOPATH/src/github.com/SkyChains/chain/build/plugins"),
 		GlobalNodeConfig: `{
 			"log-display-level":"info",
 			"proposervm-use-current-height":true

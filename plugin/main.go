@@ -6,9 +6,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/luxdefi/node/version"
-	"github.com/luxdefi/evm/plugin/evm"
-	"github.com/luxdefi/evm/plugin/runner"
+	"github.com/SkyChains/chain/version"
+	"github.com/SkyChains/evm/plugin/evm"
+	"github.com/SkyChains/evm/plugin/runner"
 )
 
 func main() {

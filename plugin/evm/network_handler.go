@@ -6,16 +6,16 @@ package evm
 import (
 	"context"
 
-	"github.com/luxdefi/node/codec"
-	"github.com/luxdefi/node/ids"
-	"github.com/luxdefi/evm/ethdb"
-	"github.com/luxdefi/evm/metrics"
-	"github.com/luxdefi/evm/plugin/evm/message"
-	syncHandlers "github.com/luxdefi/evm/sync/handlers"
-	syncStats "github.com/luxdefi/evm/sync/handlers/stats"
-	"github.com/luxdefi/evm/trie"
-	"github.com/luxdefi/evm/warp"
-	warpHandlers "github.com/luxdefi/evm/warp/handlers"
+	"github.com/SkyChains/chain/codec"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/evm/ethdb"
+	"github.com/SkyChains/evm/metrics"
+	"github.com/SkyChains/evm/plugin/evm/message"
+	syncHandlers "github.com/SkyChains/evm/sync/handlers"
+	syncStats "github.com/SkyChains/evm/sync/handlers/stats"
+	"github.com/SkyChains/evm/trie"
+	"github.com/SkyChains/evm/warp"
+	warpHandlers "github.com/SkyChains/evm/warp/handlers"
 )
 
 var _ message.RequestHandler = &networkHandler{}

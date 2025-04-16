@@ -25,12 +25,12 @@ It is also helpful to have a basic understanding of [Solidity](https://docs.soli
 Clone the repo and install the necessary packages via `yarn`.
 
 ```bash
-git clone https://github.com/luxdefi/evm.git
+git clone https://github.com/SkyChains/evm.git
 <<<<<<< HEAD
 cd contracts
 npm install
 ```bash
-git clone https://github.com/luxdefi/evm.git
+git clone https://github.com/SkyChains/evm.git
 =======
 >>>>>>> fd08c47 (Update import path)
 cd contracts
@@ -49,17 +49,13 @@ npm install
 
 All of these `NativeMinter`, `FeeManager` and `AllowList` contracts should be enabled by a chain config in genesis or as an upgrade. See the example genesis under [Tests](#tests) section.
 
-For more information about precompiles see [evm precompiles](https://github.com/luxdefi/evm#precompiles).
+For more information about precompiles see [evm precompiles](https://github.com/SkyChains/evm#precompiles).
 
 ## Hardhat Config
 
 Hardhat uses `hardhat.config.js` as the configuration file. You can define tasks, networks, compilers and more in that file. For more information see [here](https://hardhat.org/config/).
 
-<<<<<<< HEAD
-In Subnet-EVM, we provide a pre-configured file [hardhat.config.ts](https://github.com/luxdefi/lux-smart-contract-quickstart/blob/main/hardhat.config.ts).
-=======
-In EVM, we provide a pre-configured file [hardhat.config.ts](https://github.com/luxdefi/evm/blob/master/contracts/hardhat.config.ts).
->>>>>>> fd08c47 (Update import path)
+In EVM, we provide a pre-configured file [hardhat.config.ts](https://github.com/SkyChains/evm/blob/master/contracts/hardhat.config.ts).
 
 The HardHat config file includes a single network configuration: `local`. `local` defaults to using the following values for the RPC URL and the Chain ID:
 
@@ -108,7 +104,7 @@ npx hardhat accounts --network mynetwork
 
 ## Hardhat Tasks
 
-You can define custom hardhat tasks in [tasks.ts](https://github.com/luxdefi/lux-smart-contract-quickstart/blob/main/tasks.ts). Tasks contain helpers for precompiles `allowList` and `minter`. Precompiles have their own contract already-deployed when they're activated. So these can be called without deploying any intermediate contract. See `npx hardhat --help` for more information about available tasks.
+You can define custom hardhat tasks in [tasks.ts](https://github.com/SkyChains/evm/blob/master/contracts/tasks.ts). Tasks contain helpers for precompiles `allowList` and `minter`. Precompiles have their own contract already-deployed when they're activated. So these can be called without deploying any intermediate contract. See `npx hardhat --help` for more information about available tasks.
 
 ## Tests
 

@@ -13,11 +13,11 @@ package {{.Package}}
 import (
 	"testing"
 
-	"github.com/luxdefi/evm/precompile/precompileconfig"
-	"github.com/luxdefi/evm/precompile/testutils"
-	"github.com/luxdefi/evm/utils"
+	"github.com/SkyChains/evm/precompile/precompileconfig"
+	"github.com/SkyChains/evm/precompile/testutils"
+	"github.com/SkyChains/evm/utils"
 	{{- if .Contract.AllowList}}
-	"github.com/luxdefi/evm/precompile/allowlist"
+	"github.com/SkyChains/evm/precompile/allowlist"
 
 	"github.com/ethereum/go-ethereum/common"
 	{{- end}}

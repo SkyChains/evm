@@ -32,12 +32,12 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/luxdefi/evm/core"
-	"github.com/luxdefi/evm/core/state"
-	"github.com/luxdefi/evm/core/types"
-	"github.com/luxdefi/evm/core/vm"
-	"github.com/luxdefi/evm/eth/tracers"
-	"github.com/luxdefi/evm/trie"
+	"github.com/SkyChains/evm/core"
+	"github.com/SkyChains/evm/core/state"
+	"github.com/SkyChains/evm/core/types"
+	"github.com/SkyChains/evm/core/vm"
+	"github.com/SkyChains/evm/eth/tracers"
+	"github.com/SkyChains/evm/trie"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 )

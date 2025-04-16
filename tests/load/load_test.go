@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/luxdefi/evm/tests/utils/runner"
+	"github.com/SkyChains/evm/tests/utils/runner"
 	"github.com/ethereum/go-ethereum/log"
 	ginkgo "github.com/onsi/ginkgo/v2"
 	"github.com/onsi/gomega"

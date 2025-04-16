@@ -8,11 +8,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/luxdefi/node/utils/logging"
-	"github.com/luxdefi/node/utils/ulimit"
-	"github.com/luxdefi/node/vms/rpcchainvm"
+	"github.com/SkyChains/chain/utils/logging"
+	"github.com/SkyChains/chain/utils/ulimit"
+	"github.com/SkyChains/chain/vms/rpcchainvm"
 
-	"github.com/luxdefi/evm/plugin/evm"
+	"github.com/SkyChains/evm/plugin/evm"
 )
 
 func Run(versionStr string) {

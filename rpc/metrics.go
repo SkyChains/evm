@@ -30,7 +30,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/luxdefi/evm/metrics"
+	"github.com/SkyChains/evm/metrics"
 )
 
 var (

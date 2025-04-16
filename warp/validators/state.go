@@ -6,10 +6,10 @@ package validators
 import (
 	"context"
 
-	"github.com/luxdefi/node/ids"
-	"github.com/luxdefi/node/snow"
-	"github.com/luxdefi/node/snow/validators"
-	"github.com/luxdefi/node/utils/constants"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/snow"
+	"github.com/SkyChains/chain/snow/validators"
+	"github.com/SkyChains/chain/utils/constants"
 )
 
 var _ validators.State = (*State)(nil)

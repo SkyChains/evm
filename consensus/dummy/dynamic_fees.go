@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/luxdefi/node/utils/wrappers"
-	"github.com/luxdefi/evm/commontype"
-	"github.com/luxdefi/evm/core/types"
-	"github.com/luxdefi/evm/params"
+	"github.com/SkyChains/chain/utils/wrappers"
+	"github.com/SkyChains/evm/commontype"
+	"github.com/SkyChains/evm/core/types"
+	"github.com/SkyChains/evm/params"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/math"
 )

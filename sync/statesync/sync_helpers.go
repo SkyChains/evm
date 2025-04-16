@@ -4,11 +4,11 @@
 package statesync
 
 import (
-	"github.com/luxdefi/evm/core/rawdb"
-	"github.com/luxdefi/evm/core/state/snapshot"
-	"github.com/luxdefi/evm/core/types"
-	"github.com/luxdefi/evm/ethdb"
-	"github.com/luxdefi/evm/trie"
+	"github.com/SkyChains/evm/core/rawdb"
+	"github.com/SkyChains/evm/core/state/snapshot"
+	"github.com/SkyChains/evm/core/types"
+	"github.com/SkyChains/evm/ethdb"
+	"github.com/SkyChains/evm/trie"
 	"github.com/ethereum/go-ethereum/common"
 )
 

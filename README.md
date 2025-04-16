@@ -1,16 +1,16 @@
 # EVM
 
-[![Build + Test + Release](https://github.com/luxdefi/evm/actions/workflows/lint-tests-release.yml/badge.svg)](https://github.com/luxdefi/evm/actions/workflows/lint-tests-release.yml)
-[![CodeQL](https://github.com/luxdefi/evm/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/luxdefi/evm/actions/workflows/codeql-analysis.yml)
+[![Build + Test + Release](https://github.com/SkyChains/evm/actions/workflows/lint-tests-release.yml/badge.svg)](https://github.com/SkyChains/evm/actions/workflows/lint-tests-release.yml)
+[![CodeQL](https://github.com/SkyChains/evm/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/SkyChains/evm/actions/workflows/codeql-analysis.yml)
 
 [Lux](https://docs.lux.network/overview/getting-started/lux-platform) is a network composed of multiple blockchains.
 Each blockchain is an instance of a Virtual Machine (VM), much like an object in an object-oriented language is an instance of a class.
 That is, the VM defines the behavior of the blockchain.
 
 <<<<<<< HEAD
-Subnet EVM is the [Virtual Machine (VM)](https://docs.lux.network/learn/lux/virtual-machines) that defines Subnet Contract Chains. Subnet EVM is a simplified version of [Coreth VM (C-Chain)](https://github.com/luxdefi/coreth).
+Subnet EVM is the [Virtual Machine (VM)](https://docs.lux.network/learn/lux/virtual-machines) that defines Subnet Contract Chains. Subnet EVM is a simplified version of [Coreth VM (C-Chain)](https://github.com/SkyChains/coreth).
 =======
-EVM is the [Virtual Machine (VM)](https://docs.lux.network/learn/lux/virtual-machines) that defines the Subnet Contract Chains. EVM is a simplified version of [Coreth VM (C-Chain)](https://github.com/luxdefi/coreth).
+EVM is the [Virtual Machine (VM)](https://docs.lux.network/learn/lux/virtual-machines) that defines the Subnet Contract Chains. EVM is a simplified version of [Coreth VM (C-Chain)](https://github.com/SkyChains/coreth).
 >>>>>>> fd08c47 (Update import path)
 
 This chain implements the Ethereum Virtual Machine and supports Solidity smart contracts as well as most other Ethereum client functionality.
@@ -114,7 +114,7 @@ The EVM supports the following API namespaces:
 - `debug`
 
 Only the `eth` namespace is enabled by default.
-EVM is a simplified version of [Coreth VM (C-Chain)](https://github.com/luxdefi/coreth).
+EVM is a simplified version of [Coreth VM (C-Chain)](https://github.com/SkyChains/coreth).
 Full documentation for the C-Chain's API can be found [here](https://docs.lux.network/apis/node/apis/c-chain).
 
 ## Compatibility
@@ -151,9 +151,9 @@ Download the `evm` repository into your `$GOPATH`:
 
 ```sh
 cd $GOPATH
-mkdir -p src/github.com/luxdefi
-cd src/github.com/luxdefi
-git clone git@github.com:luxdefi/evm.git
+mkdir -p src/github.com/SkyChains
+cd src/github.com/SkyChains
+git clone git@github.com:SkyChains/evm.git
 cd evm
 ```
 
@@ -161,9 +161,9 @@ This will clone and checkout to `master` branch.
 
 ### Run Local Network
 
-To run a local network, it is recommended to use the [lux-cli](https://github.com/luxdefi/lux-cli#lux-cli) to set up an instance of EVM on an local Lux Network.
+To run a local network, it is recommended to use the [cli](https://github.com/SkyChains/cli#cli) to set up an instance of EVM on an local Lux Network.
 
-There are two options when using the Lux-CLI:
+There are two options when using the cli:
 
 1. Use an official EVM release: https://docs.lux.network/subnets/build-first-subnet
 2. Build and deploy a locally built (and optionally modified) version of EVM: https://docs.lux.network/subnets/create-custom-subnet

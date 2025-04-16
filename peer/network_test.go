@@ -12,21 +12,21 @@ import (
 	"testing"
 	"time"
 
-	"github.com/luxdefi/node/network/p2p"
-	"github.com/luxdefi/node/snow/engine/common"
-	"github.com/luxdefi/node/utils/logging"
-	"github.com/luxdefi/node/utils/set"
+	"github.com/SkyChains/chain/network/p2p"
+	"github.com/SkyChains/chain/snow/engine/common"
+	"github.com/SkyChains/chain/utils/logging"
+	"github.com/SkyChains/chain/utils/set"
 	ethcommon "github.com/ethereum/go-ethereum/common"
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/luxdefi/evm/plugin/evm/message"
+	"github.com/SkyChains/evm/plugin/evm/message"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/luxdefi/node/codec"
-	"github.com/luxdefi/node/codec/linearcodec"
-	"github.com/luxdefi/node/ids"
-	"github.com/luxdefi/node/version"
+	"github.com/SkyChains/chain/codec"
+	"github.com/SkyChains/chain/codec/linearcodec"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/version"
 )
 
 var (

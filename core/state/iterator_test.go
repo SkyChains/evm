@@ -31,11 +31,11 @@ import (
 
 <<<<<<< HEAD
 =======
-	"github.com/luxdefi/evm/core/rawdb"
+	"github.com/SkyChains/evm/core/rawdb"
 >>>>>>> fd08c47 (Update import path)
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/luxdefi/evm/core/rawdb"
+	"github.com/SkyChains/evm/core/rawdb"
 )
 
 // Tests that the node iterator indeed walks over the entire database contents.

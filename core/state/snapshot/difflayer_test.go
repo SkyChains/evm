@@ -32,8 +32,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/luxdefi/evm/ethdb/memorydb"
-	"github.com/luxdefi/evm/utils"
+	"github.com/SkyChains/evm/ethdb/memorydb"
+	"github.com/SkyChains/evm/utils"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 )

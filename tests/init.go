@@ -31,8 +31,8 @@ import (
 	"math/big"
 	"sort"
 
-	"github.com/luxdefi/evm/params"
-	"github.com/luxdefi/evm/utils"
+	"github.com/SkyChains/evm/params"
+	"github.com/SkyChains/evm/utils"
 )
 
 // Forks table defines supported forks and their chain config.

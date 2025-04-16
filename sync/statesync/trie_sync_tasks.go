@@ -6,11 +6,11 @@ package statesync
 import (
 	"fmt"
 
-	"github.com/luxdefi/evm/core/rawdb"
-	"github.com/luxdefi/evm/core/types"
-	"github.com/luxdefi/evm/ethdb"
-	"github.com/luxdefi/evm/sync/syncutils"
-	"github.com/luxdefi/evm/trie"
+	"github.com/SkyChains/evm/core/rawdb"
+	"github.com/SkyChains/evm/core/types"
+	"github.com/SkyChains/evm/ethdb"
+	"github.com/SkyChains/evm/sync/syncutils"
+	"github.com/SkyChains/evm/trie"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/rlp"

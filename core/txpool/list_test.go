@@ -31,7 +31,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/luxdefi/evm/core/types"
+	"github.com/SkyChains/evm/core/types"
 	"github.com/ethereum/go-ethereum/crypto"
 )
 

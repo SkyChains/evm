@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/luxdefi/evm/precompile/precompileconfig"
+	"github.com/SkyChains/evm/precompile/precompileconfig"
 	"github.com/stretchr/testify/require"
 )
 

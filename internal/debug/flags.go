@@ -37,11 +37,11 @@ import (
 
 <<<<<<< HEAD
 =======
-	"github.com/luxdefi/evm/internal/flags"
+	"github.com/SkyChains/evm/internal/flags"
 >>>>>>> fd08c47 (Update import path)
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/fjl/memsize/memsizeui"
-	"github.com/luxdefi/evm/internal/flags"
+	"github.com/SkyChains/evm/internal/flags"
 	"github.com/mattn/go-colorable"
 	"github.com/mattn/go-isatty"
 	"github.com/urfave/cli/v2"

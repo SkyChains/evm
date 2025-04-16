@@ -7,19 +7,19 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/luxdefi/evm/core/state"
-	"github.com/luxdefi/evm/precompile/allowlist"
-	"github.com/luxdefi/evm/precompile/contract"
+	"github.com/SkyChains/evm/core/state"
+	"github.com/SkyChains/evm/precompile/allowlist"
+	"github.com/SkyChains/evm/precompile/contract"
 <<<<<<< HEAD
 <<<<<<< HEAD
-	"github.com/luxdefi/evm/precompile/precompileconfig"
+	"github.com/SkyChains/evm/precompile/precompileconfig"
 =======
 >>>>>>> fd08c47 (Update import path)
 =======
-	"github.com/luxdefi/evm/precompile/precompileconfig"
+	"github.com/SkyChains/evm/precompile/precompileconfig"
 >>>>>>> d5328b4 (Sync upstream)
-	"github.com/luxdefi/evm/precompile/testutils"
-	"github.com/luxdefi/evm/vmerrs"
+	"github.com/SkyChains/evm/precompile/testutils"
+	"github.com/SkyChains/evm/vmerrs"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/math"
 	"github.com/stretchr/testify/require"

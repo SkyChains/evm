@@ -8,12 +8,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/luxdefi/evm/params"
-	"github.com/luxdefi/evm/utils"
+	"github.com/SkyChains/evm/params"
+	"github.com/SkyChains/evm/utils"
 <<<<<<< HEAD
 =======
 
-	"github.com/luxdefi/node/snow"
+	"github.com/SkyChains/chain/snow"
 >>>>>>> fd08c47 (Update import path)
 )
 

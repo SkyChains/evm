@@ -11,24 +11,24 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/luxdefi/node/ids"
+	"github.com/SkyChains/chain/ids"
 
-	"github.com/luxdefi/evm/ethdb/memorydb"
-	"github.com/luxdefi/evm/params"
-	"github.com/luxdefi/evm/sync/client/stats"
+	"github.com/SkyChains/evm/ethdb/memorydb"
+	"github.com/SkyChains/evm/params"
+	"github.com/SkyChains/evm/sync/client/stats"
 
-	"github.com/luxdefi/node/codec"
-	"github.com/luxdefi/node/version"
+	"github.com/SkyChains/chain/codec"
+	"github.com/SkyChains/chain/version"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/luxdefi/evm/core/types"
-	"github.com/luxdefi/evm/ethdb"
-	"github.com/luxdefi/evm/peer"
-	"github.com/luxdefi/evm/plugin/evm/message"
-	"github.com/luxdefi/evm/trie"
+	"github.com/SkyChains/evm/core/types"
+	"github.com/SkyChains/evm/ethdb"
+	"github.com/SkyChains/evm/peer"
+	"github.com/SkyChains/evm/plugin/evm/message"
+	"github.com/SkyChains/evm/trie"
 )
 
 const (

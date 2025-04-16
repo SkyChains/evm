@@ -30,9 +30,9 @@ import (
 	"bytes"
 	"math/big"
 
-	"github.com/luxdefi/evm/core/types"
-	"github.com/luxdefi/evm/ethdb"
-	"github.com/luxdefi/evm/params"
+	"github.com/SkyChains/evm/core/types"
+	"github.com/SkyChains/evm/ethdb"
+	"github.com/SkyChains/evm/params"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/rlp"

@@ -8,9 +8,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/luxdefi/node/utils/formatting"
-	"github.com/luxdefi/evm/core"
-	"github.com/luxdefi/evm/params"
+	"github.com/SkyChains/chain/utils/formatting"
+	"github.com/SkyChains/evm/core"
+	"github.com/SkyChains/evm/params"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -7,8 +7,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/luxdefi/node/ids"
-	"github.com/luxdefi/node/utils/crypto/bls"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/crypto/bls"
 )
 
 var (

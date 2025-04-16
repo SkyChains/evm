@@ -6,8 +6,8 @@ package predicate
 import (
 	"math/big"
 
-	"github.com/luxdefi/evm/core/types"
-	"github.com/luxdefi/evm/utils"
+	"github.com/SkyChains/evm/core/types"
+	"github.com/SkyChains/evm/utils"
 	"github.com/ethereum/go-ethereum/common"
 )
 

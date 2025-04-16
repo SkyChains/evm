@@ -33,10 +33,10 @@ import (
 	"runtime"
 	"runtime/debug"
 
-	"github.com/luxdefi/evm/core/types"
-	"github.com/luxdefi/evm/ethclient"
-	"github.com/luxdefi/evm/interfaces"
-	"github.com/luxdefi/evm/rpc"
+	"github.com/SkyChains/evm/core/types"
+	"github.com/SkyChains/evm/ethclient"
+	"github.com/SkyChains/evm/interfaces"
+	"github.com/SkyChains/evm/rpc"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 )

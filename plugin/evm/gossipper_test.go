@@ -15,8 +15,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/luxdefi/node/ids"
-	"github.com/luxdefi/node/utils/set"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/set"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
@@ -24,10 +24,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/luxdefi/evm/core"
-	"github.com/luxdefi/evm/core/types"
-	"github.com/luxdefi/evm/params"
-	"github.com/luxdefi/evm/plugin/evm/message"
+	"github.com/SkyChains/evm/core"
+	"github.com/SkyChains/evm/core/types"
+	"github.com/SkyChains/evm/params"
+	"github.com/SkyChains/evm/plugin/evm/message"
 )
 
 func fundAddressByGenesis(addrs []common.Address) (string, error) {

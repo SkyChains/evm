@@ -35,19 +35,19 @@ import (
 
 <<<<<<< HEAD
 =======
-	"github.com/luxdefi/evm/core/rawdb"
-	"github.com/luxdefi/evm/core/state"
-	"github.com/luxdefi/evm/core/types"
-	"github.com/luxdefi/evm/params"
-	"github.com/luxdefi/evm/vmerrs"
+	"github.com/SkyChains/evm/core/rawdb"
+	"github.com/SkyChains/evm/core/state"
+	"github.com/SkyChains/evm/core/types"
+	"github.com/SkyChains/evm/params"
+	"github.com/SkyChains/evm/vmerrs"
 >>>>>>> fd08c47 (Update import path)
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/luxdefi/evm/core/rawdb"
-	"github.com/luxdefi/evm/core/state"
-	"github.com/luxdefi/evm/core/types"
-	"github.com/luxdefi/evm/params"
-	"github.com/luxdefi/evm/vmerrs"
+	"github.com/SkyChains/evm/core/rawdb"
+	"github.com/SkyChains/evm/core/state"
+	"github.com/SkyChains/evm/core/types"
+	"github.com/SkyChains/evm/params"
+	"github.com/SkyChains/evm/vmerrs"
 )
 
 func TestMemoryGasCost(t *testing.T) {

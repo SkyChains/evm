@@ -30,7 +30,7 @@ import (
 	"bytes"
 	"math/big"
 
-	"github.com/luxdefi/evm/core/types"
+	"github.com/SkyChains/evm/core/types"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/rlp"
 )

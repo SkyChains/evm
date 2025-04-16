@@ -8,14 +8,14 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/luxdefi/node/ids"
+	"github.com/SkyChains/chain/ids"
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/luxdefi/node/network/p2p/gossip"
+	"github.com/SkyChains/chain/network/p2p/gossip"
 
-	"github.com/luxdefi/evm/core"
-	"github.com/luxdefi/evm/core/txpool"
-	"github.com/luxdefi/evm/core/types"
+	"github.com/SkyChains/evm/core"
+	"github.com/SkyChains/evm/core/txpool"
+	"github.com/SkyChains/evm/core/types"
 )
 
 var (

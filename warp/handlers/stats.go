@@ -6,7 +6,7 @@ package handlers
 import (
 	"time"
 
-	"github.com/luxdefi/evm/metrics"
+	"github.com/SkyChains/evm/metrics"
 )
 
 type handlerStats struct {

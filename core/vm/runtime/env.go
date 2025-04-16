@@ -27,8 +27,8 @@
 package runtime
 
 import (
-	"github.com/luxdefi/evm/core"
-	"github.com/luxdefi/evm/core/vm"
+	"github.com/SkyChains/evm/core"
+	"github.com/SkyChains/evm/core/vm"
 )
 
 func NewEnv(cfg *Config) *vm.EVM {

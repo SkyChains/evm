@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/luxdefi/evm/params"
-	"github.com/luxdefi/evm/precompile/precompileconfig"
-	"github.com/luxdefi/evm/precompile/testutils"
-	"github.com/luxdefi/evm/utils"
+	"github.com/SkyChains/evm/params"
+	"github.com/SkyChains/evm/precompile/precompileconfig"
+	"github.com/SkyChains/evm/precompile/testutils"
+	"github.com/SkyChains/evm/utils"
 	"go.uber.org/mock/gomock"
 )
 

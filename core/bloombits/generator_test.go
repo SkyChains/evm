@@ -32,7 +32,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/luxdefi/evm/core/types"
+	"github.com/SkyChains/evm/core/types"
 )
 
 // Tests that batched bloom bits are correctly rotated from the input bloom

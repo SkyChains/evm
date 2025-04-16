@@ -34,10 +34,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/luxdefi/evm/core/state"
-	"github.com/luxdefi/evm/core/vm"
-	"github.com/luxdefi/evm/eth/tracers"
-	"github.com/luxdefi/evm/params"
+	"github.com/SkyChains/evm/core/state"
+	"github.com/SkyChains/evm/core/vm"
+	"github.com/SkyChains/evm/eth/tracers"
+	"github.com/SkyChains/evm/params"
 	"github.com/ethereum/go-ethereum/common"
 )
 

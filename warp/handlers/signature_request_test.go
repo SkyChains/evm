@@ -8,22 +8,22 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/luxdefi/node/database/memdb"
-	"github.com/luxdefi/node/ids"
-	"github.com/luxdefi/node/snow/choices"
-	"github.com/luxdefi/node/snow/consensus/snowman"
-	"github.com/luxdefi/node/snow/engine/common"
-	"github.com/luxdefi/node/snow/engine/snowman/block"
-	"github.com/luxdefi/node/utils/crypto/bls"
-	luxWarp "github.com/luxdefi/node/vms/platformvm/warp"
+	"github.com/SkyChains/chain/database/memdb"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/snow/choices"
+	"github.com/SkyChains/chain/snow/consensus/snowman"
+	"github.com/SkyChains/chain/snow/engine/common"
+	"github.com/SkyChains/chain/snow/engine/snowman/block"
+	"github.com/SkyChains/chain/utils/crypto/bls"
+	luxWarp "github.com/SkyChains/chain/vms/platformvm/warp"
 <<<<<<< HEAD
-	"github.com/luxdefi/node/vms/platformvm/warp/payload"
-	"github.com/luxdefi/evm/plugin/evm/message"
-	"github.com/luxdefi/evm/utils"
+	"github.com/SkyChains/chain/vms/platformvm/warp/payload"
+	"github.com/SkyChains/evm/plugin/evm/message"
+	"github.com/SkyChains/evm/utils"
 =======
-	"github.com/luxdefi/evm/plugin/evm/message"
+	"github.com/SkyChains/evm/plugin/evm/message"
 >>>>>>> fd08c47 (Update import path)
-	"github.com/luxdefi/evm/warp"
+	"github.com/SkyChains/evm/warp"
 	"github.com/stretchr/testify/require"
 )
 

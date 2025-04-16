@@ -35,32 +35,32 @@ import (
 
 <<<<<<< HEAD
 =======
-	"github.com/luxdefi/evm/accounts/abi"
-	"github.com/luxdefi/evm/consensus"
-	"github.com/luxdefi/evm/core"
-	"github.com/luxdefi/evm/core/rawdb"
-	"github.com/luxdefi/evm/core/state"
-	"github.com/luxdefi/evm/core/types"
-	"github.com/luxdefi/evm/core/vm"
-	"github.com/luxdefi/evm/eth/tracers"
-	"github.com/luxdefi/evm/eth/tracers/logger"
-	"github.com/luxdefi/evm/params"
+	"github.com/SkyChains/evm/accounts/abi"
+	"github.com/SkyChains/evm/consensus"
+	"github.com/SkyChains/evm/core"
+	"github.com/SkyChains/evm/core/rawdb"
+	"github.com/SkyChains/evm/core/state"
+	"github.com/SkyChains/evm/core/types"
+	"github.com/SkyChains/evm/core/vm"
+	"github.com/SkyChains/evm/eth/tracers"
+	"github.com/SkyChains/evm/eth/tracers/logger"
+	"github.com/SkyChains/evm/params"
 >>>>>>> fd08c47 (Update import path)
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/asm"
-	"github.com/luxdefi/evm/accounts/abi"
-	"github.com/luxdefi/evm/consensus"
-	"github.com/luxdefi/evm/core"
-	"github.com/luxdefi/evm/core/rawdb"
-	"github.com/luxdefi/evm/core/state"
-	"github.com/luxdefi/evm/core/types"
-	"github.com/luxdefi/evm/core/vm"
-	"github.com/luxdefi/evm/eth/tracers"
-	"github.com/luxdefi/evm/eth/tracers/logger"
-	"github.com/luxdefi/evm/params"
+	"github.com/SkyChains/evm/accounts/abi"
+	"github.com/SkyChains/evm/consensus"
+	"github.com/SkyChains/evm/core"
+	"github.com/SkyChains/evm/core/rawdb"
+	"github.com/SkyChains/evm/core/state"
+	"github.com/SkyChains/evm/core/types"
+	"github.com/SkyChains/evm/core/vm"
+	"github.com/SkyChains/evm/eth/tracers"
+	"github.com/SkyChains/evm/eth/tracers/logger"
+	"github.com/SkyChains/evm/params"
 
 	// force-load js tracers to trigger registration
-	_ "github.com/luxdefi/evm/eth/tracers/js"
+	_ "github.com/SkyChains/evm/eth/tracers/js"
 )
 
 func TestDefaults(t *testing.T) {

@@ -37,12 +37,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/luxdefi/evm/accounts/abi"
-	"github.com/luxdefi/evm/accounts/abi/bind"
-	"github.com/luxdefi/evm/core"
-	"github.com/luxdefi/evm/core/types"
-	"github.com/luxdefi/evm/interfaces"
-	"github.com/luxdefi/evm/params"
+	"github.com/SkyChains/evm/accounts/abi"
+	"github.com/SkyChains/evm/accounts/abi/bind"
+	"github.com/SkyChains/evm/core"
+	"github.com/SkyChains/evm/core/types"
+	"github.com/SkyChains/evm/interfaces"
+	"github.com/SkyChains/evm/params"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 )

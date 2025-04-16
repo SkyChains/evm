@@ -33,7 +33,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/luxdefi/evm/ethdb"
+	"github.com/SkyChains/evm/ethdb"
 	"github.com/ethereum/go-ethereum/common"
 )
 

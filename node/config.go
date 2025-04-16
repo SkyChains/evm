@@ -33,14 +33,14 @@ import (
 
 <<<<<<< HEAD
 =======
-	"github.com/luxdefi/evm/accounts"
-	"github.com/luxdefi/evm/accounts/external"
-	"github.com/luxdefi/evm/accounts/keystore"
+	"github.com/SkyChains/evm/accounts"
+	"github.com/SkyChains/evm/accounts/external"
+	"github.com/SkyChains/evm/accounts/keystore"
 >>>>>>> fd08c47 (Update import path)
 	"github.com/ethereum/go-ethereum/log"
-	"github.com/luxdefi/evm/accounts"
-	"github.com/luxdefi/evm/accounts/external"
-	"github.com/luxdefi/evm/accounts/keystore"
+	"github.com/SkyChains/evm/accounts"
+	"github.com/SkyChains/evm/accounts/external"
+	"github.com/SkyChains/evm/accounts/keystore"
 )
 
 // Config represents a small collection of configuration values to fine tune the

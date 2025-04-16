@@ -4,7 +4,7 @@
 package vm
 
 import (
-	"github.com/luxdefi/evm/precompile/contract"
+	"github.com/SkyChains/evm/precompile/contract"
 	"github.com/ethereum/go-ethereum/common"
 )
 

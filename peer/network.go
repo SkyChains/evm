@@ -14,17 +14,17 @@ import (
 
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/luxdefi/node/codec"
-	"github.com/luxdefi/node/ids"
-	"github.com/luxdefi/node/network/p2p"
-	"github.com/luxdefi/node/snow/engine/common"
-	"github.com/luxdefi/node/snow/validators"
-	"github.com/luxdefi/node/utils"
-	"github.com/luxdefi/node/utils/set"
-	"github.com/luxdefi/node/version"
+	"github.com/SkyChains/chain/codec"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/network/p2p"
+	"github.com/SkyChains/chain/snow/engine/common"
+	"github.com/SkyChains/chain/snow/validators"
+	"github.com/SkyChains/chain/utils"
+	"github.com/SkyChains/chain/utils/set"
+	"github.com/SkyChains/chain/version"
 
-	"github.com/luxdefi/evm/peer/stats"
-	"github.com/luxdefi/evm/plugin/evm/message"
+	"github.com/SkyChains/evm/peer/stats"
+	"github.com/SkyChains/evm/plugin/evm/message"
 )
 
 // Minimum amount of time to handle a request

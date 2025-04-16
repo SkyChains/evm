@@ -9,12 +9,12 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/luxdefi/node/ids"
-	"github.com/luxdefi/node/utils/set"
-	"github.com/luxdefi/evm/core/rawdb"
-	"github.com/luxdefi/evm/ethdb"
-	"github.com/luxdefi/evm/plugin/evm/message"
-	statesyncclient "github.com/luxdefi/evm/sync/client"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/set"
+	"github.com/SkyChains/evm/core/rawdb"
+	"github.com/SkyChains/evm/ethdb"
+	"github.com/SkyChains/evm/plugin/evm/message"
+	statesyncclient "github.com/SkyChains/evm/sync/client"
 
 	"github.com/ethereum/go-ethereum/common"
 )

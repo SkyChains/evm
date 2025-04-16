@@ -12,9 +12,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/luxdefi/evm/accounts/abi"
-	"github.com/luxdefi/evm/constants"
-	"github.com/luxdefi/evm/precompile/contract"
+	"github.com/SkyChains/evm/accounts/abi"
+	"github.com/SkyChains/evm/constants"
+	"github.com/SkyChains/evm/precompile/contract"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/stretchr/testify/require"

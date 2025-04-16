@@ -6,7 +6,7 @@ package allowlist
 import (
 	"testing"
 
-	"github.com/luxdefi/evm/precompile/modules"
+	"github.com/SkyChains/evm/precompile/modules"
 )
 
 var testModule = modules.Module{

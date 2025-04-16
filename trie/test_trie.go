@@ -10,10 +10,10 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/luxdefi/node/utils/wrappers"
-	"github.com/luxdefi/evm/accounts/keystore"
-	"github.com/luxdefi/evm/core/types"
-	"github.com/luxdefi/evm/trie/trienode"
+	"github.com/SkyChains/chain/utils/wrappers"
+	"github.com/SkyChains/evm/accounts/keystore"
+	"github.com/SkyChains/evm/core/types"
+	"github.com/SkyChains/evm/trie/trienode"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/rlp"

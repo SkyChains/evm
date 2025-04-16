@@ -4,7 +4,7 @@
 package params
 
 import (
-	"github.com/luxdefi/evm/utils"
+	"github.com/SkyChains/evm/utils"
 )
 
 var (

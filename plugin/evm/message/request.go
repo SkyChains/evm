@@ -7,8 +7,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/luxdefi/node/codec"
-	"github.com/luxdefi/node/ids"
+	"github.com/SkyChains/chain/codec"
+	"github.com/SkyChains/chain/ids"
 )
 
 // Request represents a Network request type

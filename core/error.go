@@ -29,7 +29,7 @@ package core
 import (
 	"errors"
 
-	"github.com/luxdefi/evm/core/types"
+	"github.com/SkyChains/evm/core/types"
 )
 
 var (

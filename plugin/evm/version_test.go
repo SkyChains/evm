@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/luxdefi/node/version"
+	"github.com/SkyChains/chain/version"
 	"github.com/stretchr/testify/assert"
 )
 

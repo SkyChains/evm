@@ -34,12 +34,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/luxdefi/evm/core"
-	"github.com/luxdefi/evm/core/rawdb"
-	"github.com/luxdefi/evm/core/types"
-	"github.com/luxdefi/evm/core/vm"
-	"github.com/luxdefi/evm/eth/tracers"
-	"github.com/luxdefi/evm/tests"
+	"github.com/SkyChains/evm/core"
+	"github.com/SkyChains/evm/core/rawdb"
+	"github.com/SkyChains/evm/core/types"
+	"github.com/SkyChains/evm/core/vm"
+	"github.com/SkyChains/evm/eth/tracers"
+	"github.com/SkyChains/evm/tests"
 	"github.com/ethereum/go-ethereum/common"
 )
 

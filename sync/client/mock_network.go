@@ -7,10 +7,10 @@ import (
 	"context"
 	"errors"
 
-	"github.com/luxdefi/node/ids"
-	"github.com/luxdefi/evm/peer"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/evm/peer"
 
-	"github.com/luxdefi/node/version"
+	"github.com/SkyChains/chain/version"
 )
 
 var _ peer.NetworkClient = &mockNetwork{}

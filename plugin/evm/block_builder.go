@@ -7,14 +7,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/luxdefi/node/utils/timer"
-	"github.com/luxdefi/evm/core"
-	"github.com/luxdefi/evm/core/txpool"
-	"github.com/luxdefi/evm/params"
+	"github.com/SkyChains/chain/utils/timer"
+	"github.com/SkyChains/evm/core"
+	"github.com/SkyChains/evm/core/txpool"
+	"github.com/SkyChains/evm/params"
 
 	"github.com/ethereum/go-ethereum/log"
-	"github.com/luxdefi/node/snow"
-	commonEng "github.com/luxdefi/node/snow/engine/common"
+	"github.com/SkyChains/chain/snow"
+	commonEng "github.com/SkyChains/chain/snow/engine/common"
 )
 
 const (

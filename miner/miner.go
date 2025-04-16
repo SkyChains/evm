@@ -28,13 +28,13 @@
 package miner
 
 import (
-	"github.com/luxdefi/node/utils/timer/mockable"
-	"github.com/luxdefi/evm/consensus"
-	"github.com/luxdefi/evm/core"
-	"github.com/luxdefi/evm/core/txpool"
-	"github.com/luxdefi/evm/core/types"
-	"github.com/luxdefi/evm/params"
-	"github.com/luxdefi/evm/precompile/precompileconfig"
+	"github.com/SkyChains/chain/utils/timer/mockable"
+	"github.com/SkyChains/evm/consensus"
+	"github.com/SkyChains/evm/core"
+	"github.com/SkyChains/evm/core/txpool"
+	"github.com/SkyChains/evm/core/types"
+	"github.com/SkyChains/evm/params"
+	"github.com/SkyChains/evm/precompile/precompileconfig"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/event"
 )

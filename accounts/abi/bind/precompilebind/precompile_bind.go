@@ -35,9 +35,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/luxdefi/evm/accounts/abi"
-	"github.com/luxdefi/evm/accounts/abi/bind"
-	"github.com/luxdefi/evm/precompile/allowlist"
+	"github.com/SkyChains/evm/accounts/abi"
+	"github.com/SkyChains/evm/accounts/abi/bind"
+	"github.com/SkyChains/evm/precompile/allowlist"
 )
 
 var errNoAnonymousEvent = errors.New("event type must not be anonymous")

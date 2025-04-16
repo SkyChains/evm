@@ -29,7 +29,7 @@ package vm
 import (
 	"fmt"
 
-	"github.com/luxdefi/evm/params"
+	"github.com/SkyChains/evm/params"
 )
 
 type (

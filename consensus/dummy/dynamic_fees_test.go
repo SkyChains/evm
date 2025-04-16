@@ -8,9 +8,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/luxdefi/evm/commontype"
-	"github.com/luxdefi/evm/core/types"
-	"github.com/luxdefi/evm/params"
+	"github.com/SkyChains/evm/commontype"
+	"github.com/SkyChains/evm/core/types"
+	"github.com/SkyChains/evm/params"
 	"github.com/ethereum/go-ethereum/common/math"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/stretchr/testify/assert"

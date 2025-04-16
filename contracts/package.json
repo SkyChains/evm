@@ -1,6 +1,6 @@
 {
 <<<<<<< HEAD
-  "name": "@luxdefi/evm-contracts",
+  "name": "@SkyChains/evm-contracts",
 =======
   "name": "@avalabs/evm-contracts",
 >>>>>>> fd08c47 (Update import path)
@@ -18,7 +18,7 @@
   "module": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/luxdefi/evm.git",
+    "url": "https://github.com/SkyChains/evm.git",
     "directory": "contracts"
   },
   "license": "BSD-3-Clause",
@@ -35,7 +35,7 @@
     "@nomiclabs/hardhat-ethers": "^2.2.3",
     "@nomiclabs/hardhat-waffle": "^2.0.6",
     "@types/node": "^16.7.1",
-    "@luxdefi/core": "^3.17.0",
+    "@SkyChains/bridge": "^3.17.0",
     "ethers": "^5.4.5",
     "hardhat": "2.17.1",
     "ts-node": "^10.9.1",

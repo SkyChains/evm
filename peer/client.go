@@ -7,9 +7,9 @@ import (
 	"context"
 	"errors"
 
-	"github.com/luxdefi/node/ids"
+	"github.com/SkyChains/chain/ids"
 
-	"github.com/luxdefi/node/version"
+	"github.com/SkyChains/chain/version"
 )
 
 var (

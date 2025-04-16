@@ -32,12 +32,12 @@ import (
 
 <<<<<<< HEAD
 =======
-	"github.com/luxdefi/evm/ethdb"
+	"github.com/SkyChains/evm/ethdb"
 >>>>>>> fd08c47 (Update import path)
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/log"
-	"github.com/luxdefi/evm/ethdb"
+	"github.com/SkyChains/evm/ethdb"
 	"golang.org/x/crypto/sha3"
 )
 

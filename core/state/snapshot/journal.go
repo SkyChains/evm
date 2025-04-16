@@ -32,9 +32,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/luxdefi/evm/core/rawdb"
-	"github.com/luxdefi/evm/ethdb"
-	"github.com/luxdefi/evm/trie"
+	"github.com/SkyChains/evm/core/rawdb"
+	"github.com/SkyChains/evm/ethdb"
+	"github.com/SkyChains/evm/trie"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/rlp"

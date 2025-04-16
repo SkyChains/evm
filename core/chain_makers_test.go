@@ -30,11 +30,11 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/luxdefi/evm/consensus/dummy"
-	"github.com/luxdefi/evm/core/rawdb"
-	"github.com/luxdefi/evm/core/types"
-	"github.com/luxdefi/evm/core/vm"
-	"github.com/luxdefi/evm/params"
+	"github.com/SkyChains/evm/consensus/dummy"
+	"github.com/SkyChains/evm/core/rawdb"
+	"github.com/SkyChains/evm/core/types"
+	"github.com/SkyChains/evm/core/vm"
+	"github.com/SkyChains/evm/params"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 )

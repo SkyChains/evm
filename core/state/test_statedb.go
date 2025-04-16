@@ -6,8 +6,8 @@ package state
 import (
 	"testing"
 
-	"github.com/luxdefi/evm/core/rawdb"
-	"github.com/luxdefi/evm/precompile/contract"
+	"github.com/SkyChains/evm/core/rawdb"
+	"github.com/SkyChains/evm/precompile/contract"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/stretchr/testify/require"
 )

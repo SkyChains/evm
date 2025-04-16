@@ -37,8 +37,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/luxdefi/evm/ethdb"
-	"github.com/luxdefi/evm/metrics"
+	"github.com/SkyChains/evm/ethdb"
+	"github.com/SkyChains/evm/metrics"
 	"github.com/cockroachdb/pebble"
 	"github.com/cockroachdb/pebble/bloom"
 	"github.com/ethereum/go-ethereum/common"

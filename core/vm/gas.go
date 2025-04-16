@@ -27,7 +27,7 @@
 package vm
 
 import (
-	"github.com/luxdefi/evm/vmerrs"
+	"github.com/SkyChains/evm/vmerrs"
 	"github.com/holiman/uint256"
 )
 

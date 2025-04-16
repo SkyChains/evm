@@ -32,8 +32,8 @@ import (
 	"math/big"
 	"sync/atomic"
 
-	"github.com/luxdefi/evm/core/vm"
-	"github.com/luxdefi/evm/eth/tracers"
+	"github.com/SkyChains/evm/core/vm"
+	"github.com/SkyChains/evm/eth/tracers"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/crypto"

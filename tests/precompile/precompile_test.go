@@ -11,7 +11,7 @@ import (
 	"github.com/onsi/gomega"
 
 	// Import the solidity package, so that ginkgo maps out the tests declared within the package
-	"github.com/luxdefi/evm/tests/precompile/solidity"
+	"github.com/SkyChains/evm/tests/precompile/solidity"
 )
 
 func TestE2E(t *testing.T) {

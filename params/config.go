@@ -35,24 +35,24 @@ import (
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
-	"github.com/luxdefi/node/snow"
+	"github.com/SkyChains/chain/snow"
 =======
 	"github.com/ethereum/go-ethereum/common"
 >>>>>>> d5328b4 (Sync upstream)
-	"github.com/luxdefi/evm/commontype"
-	"github.com/luxdefi/evm/precompile/modules"
-	"github.com/luxdefi/evm/precompile/precompileconfig"
-	"github.com/luxdefi/evm/utils"
+	"github.com/SkyChains/evm/commontype"
+	"github.com/SkyChains/evm/precompile/modules"
+	"github.com/SkyChains/evm/precompile/precompileconfig"
+	"github.com/SkyChains/evm/utils"
 <<<<<<< HEAD
 >>>>>>> fd08c47 (Update import path)
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/luxdefi/node/snow"
-	"github.com/luxdefi/evm/commontype"
-	"github.com/luxdefi/evm/precompile/modules"
-	"github.com/luxdefi/evm/precompile/precompileconfig"
-	"github.com/luxdefi/evm/utils"
+	"github.com/SkyChains/chain/snow"
+	"github.com/SkyChains/evm/commontype"
+	"github.com/SkyChains/evm/precompile/modules"
+	"github.com/SkyChains/evm/precompile/precompileconfig"
+	"github.com/SkyChains/evm/utils"
 =======
-	"github.com/luxdefi/node/snow"
+	"github.com/SkyChains/chain/snow"
 >>>>>>> d5328b4 (Sync upstream)
 )
 
@@ -316,9 +316,9 @@ func (c *ChainConfig) Description() string {
 		banner += fmt.Sprintf(" - Muir Glacier:                #%-8v (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/muir-glacier.md)\n", c.MuirGlacierBlock)
 	}
 	banner += "Mandatory Upgrades:\n"
-	banner += fmt.Sprintf(" - EVM Timestamp:           @%-10v (https://github.com/luxdefi/node/releases/tag/v1.10.0)\n", ptrToString(c.EVMTimestamp))
-	banner += fmt.Sprintf(" - DUpgrade Timestamp:            @%-10v (https://github.com/luxdefi/node/releases/tag/v1.11.0)\n", ptrToString(c.DUpgradeTimestamp))
-	banner += fmt.Sprintf(" - Cancun Timestamp:              @%-10v (https://github.com/luxdefi/node/releases/tag/v1.11.0)\n", ptrToString(c.CancunTime))
+	banner += fmt.Sprintf(" - EVM Timestamp:           @%-10v (https://github.com/SkyChains/chain/releases/tag/v1.10.0)\n", ptrToString(c.EVMTimestamp))
+	banner += fmt.Sprintf(" - DUpgrade Timestamp:            @%-10v (https://github.com/SkyChains/chain/releases/tag/v1.11.0)\n", ptrToString(c.DUpgradeTimestamp))
+	banner += fmt.Sprintf(" - Cancun Timestamp:              @%-10v (https://github.com/SkyChains/chain/releases/tag/v1.11.0)\n", ptrToString(c.CancunTime))
 	banner += "\n"
 
 	// Add EVM custom fields

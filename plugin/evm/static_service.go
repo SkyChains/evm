@@ -7,8 +7,8 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/luxdefi/node/utils/formatting"
-	"github.com/luxdefi/evm/core"
+	"github.com/SkyChains/chain/utils/formatting"
+	"github.com/SkyChains/evm/core"
 	"github.com/ethereum/go-ethereum/common"
 )
 

@@ -7,11 +7,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/luxdefi/node/ids"
+	"github.com/SkyChains/chain/ids"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 
-	"github.com/luxdefi/node/snow/engine/snowman/block"
+	"github.com/SkyChains/chain/snow/engine/snowman/block"
 )
 
 var _ block.StateSummary = &SyncSummary{}

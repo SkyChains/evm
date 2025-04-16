@@ -8,21 +8,21 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/luxdefi/node/ids"
-	agoUtils "github.com/luxdefi/node/utils"
-	"github.com/luxdefi/node/utils/set"
-	"github.com/luxdefi/node/vms/platformvm/warp"
-	luxWarp "github.com/luxdefi/node/vms/platformvm/warp"
-	"github.com/luxdefi/node/vms/platformvm/warp/payload"
-	"github.com/luxdefi/evm/core/state"
-	"github.com/luxdefi/evm/precompile/contract"
-	"github.com/luxdefi/evm/precompile/testutils"
-	"github.com/luxdefi/evm/predicate"
+	"github.com/SkyChains/chain/ids"
+	agoUtils "github.com/SkyChains/chain/utils"
+	"github.com/SkyChains/chain/utils/set"
+	"github.com/SkyChains/chain/vms/platformvm/warp"
+	luxWarp "github.com/SkyChains/chain/vms/platformvm/warp"
+	"github.com/SkyChains/chain/vms/platformvm/warp/payload"
+	"github.com/SkyChains/evm/core/state"
+	"github.com/SkyChains/evm/precompile/contract"
+	"github.com/SkyChains/evm/precompile/testutils"
+	"github.com/SkyChains/evm/predicate"
 <<<<<<< HEAD
-	"github.com/luxdefi/evm/utils"
+	"github.com/SkyChains/evm/utils"
 =======
 >>>>>>> fd08c47 (Update import path)
-	"github.com/luxdefi/evm/vmerrs"
+	"github.com/SkyChains/evm/vmerrs"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/stretchr/testify/require"
 )

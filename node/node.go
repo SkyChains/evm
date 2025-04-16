@@ -27,8 +27,8 @@
 package node
 
 import (
-	"github.com/luxdefi/evm/accounts"
-	"github.com/luxdefi/evm/rpc"
+	"github.com/SkyChains/evm/accounts"
+	"github.com/SkyChains/evm/rpc"
 )
 
 // Node is a container on which services can be registered.

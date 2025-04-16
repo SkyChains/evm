@@ -7,12 +7,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/luxdefi/node/vms/platformvm/warp"
-	"github.com/luxdefi/node/vms/platformvm/warp/payload"
-	"github.com/luxdefi/evm/accounts/abi"
-	"github.com/luxdefi/evm/params"
-	"github.com/luxdefi/evm/precompile/contract"
-	"github.com/luxdefi/evm/vmerrs"
+	"github.com/SkyChains/chain/vms/platformvm/warp"
+	"github.com/SkyChains/chain/vms/platformvm/warp/payload"
+	"github.com/SkyChains/evm/accounts/abi"
+	"github.com/SkyChains/evm/params"
+	"github.com/SkyChains/evm/precompile/contract"
+	"github.com/SkyChains/evm/vmerrs"
 
 	_ "embed"
 

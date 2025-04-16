@@ -32,12 +32,12 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/luxdefi/evm/core"
-	"github.com/luxdefi/evm/core/types"
+	"github.com/SkyChains/evm/core"
+	"github.com/SkyChains/evm/core/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/luxdefi/evm/params"
-	"github.com/luxdefi/evm/rpc"
+	"github.com/SkyChains/evm/params"
+	"github.com/SkyChains/evm/rpc"
 	"github.com/ethereum/go-ethereum/common"
 )
 

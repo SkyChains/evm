@@ -32,11 +32,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/luxdefi/evm/core/rawdb"
-	"github.com/luxdefi/evm/core/types"
-	"github.com/luxdefi/evm/ethdb"
-	"github.com/luxdefi/evm/metrics"
-	"github.com/luxdefi/evm/trie/trienode"
+	"github.com/SkyChains/evm/core/rawdb"
+	"github.com/SkyChains/evm/core/types"
+	"github.com/SkyChains/evm/ethdb"
+	"github.com/SkyChains/evm/metrics"
+	"github.com/SkyChains/evm/trie/trienode"
 <<<<<<< HEAD
 
 =======

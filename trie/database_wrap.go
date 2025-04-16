@@ -21,10 +21,10 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/luxdefi/evm/ethdb"
-	"github.com/luxdefi/evm/trie/triedb/hashdb"
-	"github.com/luxdefi/evm/trie/trienode"
-	"github.com/luxdefi/evm/utils"
+	"github.com/SkyChains/evm/ethdb"
+	"github.com/SkyChains/evm/trie/triedb/hashdb"
+	"github.com/SkyChains/evm/trie/trienode"
+	"github.com/SkyChains/evm/utils"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 )

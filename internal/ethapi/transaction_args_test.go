@@ -33,9 +33,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/luxdefi/evm/core/types"
-	"github.com/luxdefi/evm/params"
-	"github.com/luxdefi/evm/utils"
+	"github.com/SkyChains/evm/core/types"
+	"github.com/SkyChains/evm/params"
+	"github.com/SkyChains/evm/utils"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 )

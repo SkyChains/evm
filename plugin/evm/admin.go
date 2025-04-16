@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/luxdefi/node/api"
-	"github.com/luxdefi/node/utils/profiler"
+	"github.com/SkyChains/chain/api"
+	"github.com/SkyChains/chain/utils/profiler"
 	"github.com/ethereum/go-ethereum/log"
 )
 

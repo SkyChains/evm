@@ -8,23 +8,23 @@ import (
 	"sync"
 	"time"
 
-	"github.com/luxdefi/node/codec"
+	"github.com/SkyChains/chain/codec"
 
-	"github.com/luxdefi/evm/peer"
+	"github.com/SkyChains/evm/peer"
 
-	"github.com/luxdefi/node/cache"
-	"github.com/luxdefi/node/ids"
-	"github.com/luxdefi/node/snow"
+	"github.com/SkyChains/chain/cache"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/snow"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/rlp"
 
-	"github.com/luxdefi/evm/core"
-	"github.com/luxdefi/evm/core/state"
-	"github.com/luxdefi/evm/core/txpool"
-	"github.com/luxdefi/evm/core/types"
-	"github.com/luxdefi/evm/plugin/evm/message"
+	"github.com/SkyChains/evm/core"
+	"github.com/SkyChains/evm/core/state"
+	"github.com/SkyChains/evm/core/txpool"
+	"github.com/SkyChains/evm/core/types"
+	"github.com/SkyChains/evm/plugin/evm/message"
 )
 
 const (

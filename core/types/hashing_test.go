@@ -34,9 +34,9 @@ import (
 	mrand "math/rand"
 	"testing"
 
-	"github.com/luxdefi/evm/core/rawdb"
-	"github.com/luxdefi/evm/core/types"
-	"github.com/luxdefi/evm/trie"
+	"github.com/SkyChains/evm/core/rawdb"
+	"github.com/SkyChains/evm/core/types"
+	"github.com/SkyChains/evm/trie"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/crypto"

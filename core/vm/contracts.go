@@ -33,10 +33,10 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/luxdefi/evm/params"
-	"github.com/luxdefi/evm/precompile/contract"
-	"github.com/luxdefi/evm/precompile/modules"
-	"github.com/luxdefi/evm/vmerrs"
+	"github.com/SkyChains/evm/params"
+	"github.com/SkyChains/evm/precompile/contract"
+	"github.com/SkyChains/evm/precompile/modules"
+	"github.com/SkyChains/evm/vmerrs"
 <<<<<<< HEAD
 
 =======

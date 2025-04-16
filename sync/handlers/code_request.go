@@ -7,13 +7,13 @@ import (
 	"context"
 	"time"
 
-	"github.com/luxdefi/node/codec"
-	"github.com/luxdefi/node/ids"
+	"github.com/SkyChains/chain/codec"
+	"github.com/SkyChains/chain/ids"
 
-	"github.com/luxdefi/evm/core/rawdb"
-	"github.com/luxdefi/evm/ethdb"
-	"github.com/luxdefi/evm/plugin/evm/message"
-	"github.com/luxdefi/evm/sync/handlers/stats"
+	"github.com/SkyChains/evm/core/rawdb"
+	"github.com/SkyChains/evm/ethdb"
+	"github.com/SkyChains/evm/plugin/evm/message"
+	"github.com/SkyChains/evm/sync/handlers/stats"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 )

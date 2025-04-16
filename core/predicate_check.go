@@ -7,11 +7,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/luxdefi/node/utils/set"
-	"github.com/luxdefi/evm/core/types"
-	"github.com/luxdefi/evm/params"
-	"github.com/luxdefi/evm/precompile/precompileconfig"
-	"github.com/luxdefi/evm/predicate"
+	"github.com/SkyChains/chain/utils/set"
+	"github.com/SkyChains/evm/core/types"
+	"github.com/SkyChains/evm/params"
+	"github.com/SkyChains/evm/precompile/precompileconfig"
+	"github.com/SkyChains/evm/predicate"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 )

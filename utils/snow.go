@@ -4,11 +4,11 @@
 package utils
 
 import (
-	"github.com/luxdefi/node/api/metrics"
-	"github.com/luxdefi/node/ids"
-	"github.com/luxdefi/node/snow"
-	"github.com/luxdefi/node/utils/crypto/bls"
-	"github.com/luxdefi/node/utils/logging"
+	"github.com/SkyChains/chain/api/metrics"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/snow"
+	"github.com/SkyChains/chain/utils/crypto/bls"
+	"github.com/SkyChains/chain/utils/logging"
 )
 
 func TestSnowContext() *snow.Context {

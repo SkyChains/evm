@@ -36,21 +36,21 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/luxdefi/evm/commontype"
-	"github.com/luxdefi/evm/consensus/dummy"
-	"github.com/luxdefi/evm/core"
-	"github.com/luxdefi/evm/core/state"
-	"github.com/luxdefi/evm/core/types"
-	"github.com/luxdefi/evm/metrics"
-	"github.com/luxdefi/evm/params"
+	"github.com/SkyChains/evm/commontype"
+	"github.com/SkyChains/evm/consensus/dummy"
+	"github.com/SkyChains/evm/core"
+	"github.com/SkyChains/evm/core/state"
+	"github.com/SkyChains/evm/core/types"
+	"github.com/SkyChains/evm/metrics"
+	"github.com/SkyChains/evm/params"
 <<<<<<< HEAD
-	"github.com/luxdefi/evm/precompile"
+	"github.com/SkyChains/evm/precompile"
 =======
 >>>>>>> fd08c47 (Update import path)
-	"github.com/luxdefi/evm/precompile/contracts/feemanager"
-	"github.com/luxdefi/evm/precompile/contracts/txallowlist"
-	"github.com/luxdefi/evm/utils"
-	"github.com/luxdefi/evm/vmerrs"
+	"github.com/SkyChains/evm/precompile/contracts/feemanager"
+	"github.com/SkyChains/evm/precompile/contracts/txallowlist"
+	"github.com/SkyChains/evm/utils"
+	"github.com/SkyChains/evm/vmerrs"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/prque"

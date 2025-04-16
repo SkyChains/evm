@@ -11,16 +11,16 @@ import (
 
 <<<<<<< HEAD
 <<<<<<< HEAD
-	"github.com/luxdefi/evm/accounts/abi"
+	"github.com/SkyChains/evm/accounts/abi"
 =======
 >>>>>>> fd08c47 (Update import path)
 =======
-	"github.com/luxdefi/evm/accounts/abi"
+	"github.com/SkyChains/evm/accounts/abi"
 >>>>>>> d5328b4 (Sync upstream)
-	"github.com/luxdefi/evm/commontype"
-	"github.com/luxdefi/evm/precompile/allowlist"
-	"github.com/luxdefi/evm/precompile/contract"
-	"github.com/luxdefi/evm/vmerrs"
+	"github.com/SkyChains/evm/commontype"
+	"github.com/SkyChains/evm/precompile/allowlist"
+	"github.com/SkyChains/evm/precompile/contract"
+	"github.com/SkyChains/evm/vmerrs"
 	"github.com/ethereum/go-ethereum/common"
 )
 

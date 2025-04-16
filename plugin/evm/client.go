@@ -7,8 +7,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/luxdefi/node/api"
-	"github.com/luxdefi/node/utils/rpc"
+	"github.com/SkyChains/chain/api"
+	"github.com/SkyChains/chain/utils/rpc"
 	"github.com/ethereum/go-ethereum/log"
 )
 

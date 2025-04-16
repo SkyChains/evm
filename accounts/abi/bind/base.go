@@ -34,9 +34,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/luxdefi/evm/accounts/abi"
-	"github.com/luxdefi/evm/core/types"
-	"github.com/luxdefi/evm/interfaces"
+	"github.com/SkyChains/evm/accounts/abi"
+	"github.com/SkyChains/evm/core/types"
+	"github.com/SkyChains/evm/interfaces"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/event"

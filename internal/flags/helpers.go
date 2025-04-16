@@ -30,8 +30,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/luxdefi/evm/internal/version"
-	"github.com/luxdefi/evm/params"
+	"github.com/SkyChains/evm/internal/version"
+	"github.com/SkyChains/evm/params"
 	"github.com/urfave/cli/v2"
 )
 

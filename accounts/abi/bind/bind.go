@@ -41,10 +41,10 @@ import (
 
 <<<<<<< HEAD
 =======
-	"github.com/luxdefi/evm/accounts/abi"
+	"github.com/SkyChains/evm/accounts/abi"
 >>>>>>> fd08c47 (Update import path)
 	"github.com/ethereum/go-ethereum/log"
-	"github.com/luxdefi/evm/accounts/abi"
+	"github.com/SkyChains/evm/accounts/abi"
 )
 
 // BindHook is a callback function that can be used to customize the binding.

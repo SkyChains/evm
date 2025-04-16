@@ -7,7 +7,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/luxdefi/node/ids"
+	"github.com/SkyChains/chain/ids"
 	"github.com/ethereum/go-ethereum/common"
 )
 

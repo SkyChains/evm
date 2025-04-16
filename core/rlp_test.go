@@ -31,9 +31,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/luxdefi/evm/consensus/dummy"
-	"github.com/luxdefi/evm/core/types"
-	"github.com/luxdefi/evm/params"
+	"github.com/SkyChains/evm/consensus/dummy"
+	"github.com/SkyChains/evm/core/types"
+	"github.com/SkyChains/evm/params"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/rlp"

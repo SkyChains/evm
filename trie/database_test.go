@@ -27,9 +27,9 @@
 package trie
 
 import (
-	"github.com/luxdefi/evm/core/rawdb"
-	"github.com/luxdefi/evm/ethdb"
-	"github.com/luxdefi/evm/trie/triedb/hashdb"
+	"github.com/SkyChains/evm/core/rawdb"
+	"github.com/SkyChains/evm/ethdb"
+	"github.com/SkyChains/evm/trie/triedb/hashdb"
 )
 
 // newTestDatabase initializes the trie database with specified scheme.

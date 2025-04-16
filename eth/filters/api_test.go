@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/luxdefi/evm/rpc"
+	"github.com/SkyChains/evm/rpc"
 	"github.com/ethereum/go-ethereum/common"
 )
 

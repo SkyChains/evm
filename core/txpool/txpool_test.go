@@ -40,14 +40,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/luxdefi/evm/commontype"
-	"github.com/luxdefi/evm/core"
-	"github.com/luxdefi/evm/core/rawdb"
-	"github.com/luxdefi/evm/core/state"
-	"github.com/luxdefi/evm/core/types"
-	"github.com/luxdefi/evm/params"
-	"github.com/luxdefi/evm/trie"
-	"github.com/luxdefi/evm/utils"
+	"github.com/SkyChains/evm/commontype"
+	"github.com/SkyChains/evm/core"
+	"github.com/SkyChains/evm/core/rawdb"
+	"github.com/SkyChains/evm/core/state"
+	"github.com/SkyChains/evm/core/types"
+	"github.com/SkyChains/evm/params"
+	"github.com/SkyChains/evm/trie"
+	"github.com/SkyChains/evm/utils"
 <<<<<<< HEAD
 
 =======

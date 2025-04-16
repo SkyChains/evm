@@ -4,9 +4,9 @@
 package evm
 
 import (
-	"github.com/luxdefi/evm/ethdb"
+	"github.com/SkyChains/evm/ethdb"
 
-	"github.com/luxdefi/node/database"
+	"github.com/SkyChains/chain/database"
 )
 
 var _ ethdb.Database = &Database{}

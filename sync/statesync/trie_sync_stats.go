@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
-	utils_math "github.com/luxdefi/node/utils/math"
-	"github.com/luxdefi/evm/metrics"
+	utils_math "github.com/SkyChains/chain/utils/math"
+	"github.com/SkyChains/evm/metrics"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 )

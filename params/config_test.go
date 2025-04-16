@@ -36,16 +36,16 @@ import (
 
 <<<<<<< HEAD
 =======
-	"github.com/luxdefi/evm/precompile/contracts/nativeminter"
-	"github.com/luxdefi/evm/precompile/contracts/rewardmanager"
-	"github.com/luxdefi/evm/precompile/contracts/txallowlist"
-	"github.com/luxdefi/evm/utils"
+	"github.com/SkyChains/evm/precompile/contracts/nativeminter"
+	"github.com/SkyChains/evm/precompile/contracts/rewardmanager"
+	"github.com/SkyChains/evm/precompile/contracts/txallowlist"
+	"github.com/SkyChains/evm/utils"
 >>>>>>> fd08c47 (Update import path)
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/luxdefi/evm/precompile/contracts/nativeminter"
-	"github.com/luxdefi/evm/precompile/contracts/rewardmanager"
-	"github.com/luxdefi/evm/precompile/contracts/txallowlist"
-	"github.com/luxdefi/evm/utils"
+	"github.com/SkyChains/evm/precompile/contracts/nativeminter"
+	"github.com/SkyChains/evm/precompile/contracts/rewardmanager"
+	"github.com/SkyChains/evm/precompile/contracts/txallowlist"
+	"github.com/SkyChains/evm/utils"
 	"github.com/stretchr/testify/require"
 )
 

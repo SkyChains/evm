@@ -9,9 +9,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/luxdefi/evm/core"
-	"github.com/luxdefi/evm/core/types"
-	"github.com/luxdefi/evm/params"
+	"github.com/SkyChains/evm/core"
+	"github.com/SkyChains/evm/core/types"
+	"github.com/SkyChains/evm/params"
 	"github.com/stretchr/testify/require"
 )
 

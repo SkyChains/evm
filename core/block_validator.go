@@ -29,11 +29,11 @@ package core
 import (
 	"fmt"
 
-	"github.com/luxdefi/evm/consensus"
-	"github.com/luxdefi/evm/core/state"
-	"github.com/luxdefi/evm/core/types"
-	"github.com/luxdefi/evm/params"
-	"github.com/luxdefi/evm/trie"
+	"github.com/SkyChains/evm/consensus"
+	"github.com/SkyChains/evm/core/state"
+	"github.com/SkyChains/evm/core/types"
+	"github.com/SkyChains/evm/params"
+	"github.com/SkyChains/evm/trie"
 )
 
 // BlockValidator is responsible for validating block headers, uncles and

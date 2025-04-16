@@ -7,7 +7,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/luxdefi/node/utils"
+	"github.com/SkyChains/chain/utils"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

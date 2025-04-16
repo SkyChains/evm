@@ -10,13 +10,13 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/luxdefi/node/utils/timer/mockable"
-	"github.com/luxdefi/evm/consensus"
-	"github.com/luxdefi/evm/core/state"
-	"github.com/luxdefi/evm/core/types"
-	"github.com/luxdefi/evm/params"
-	"github.com/luxdefi/evm/trie"
-	"github.com/luxdefi/evm/vmerrs"
+	"github.com/SkyChains/chain/utils/timer/mockable"
+	"github.com/SkyChains/evm/consensus"
+	"github.com/SkyChains/evm/core/state"
+	"github.com/SkyChains/evm/core/types"
+	"github.com/SkyChains/evm/params"
+	"github.com/SkyChains/evm/trie"
+	"github.com/SkyChains/evm/vmerrs"
 	"github.com/ethereum/go-ethereum/common"
 )
 

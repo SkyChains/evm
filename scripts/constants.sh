@@ -4,7 +4,7 @@
 GOPATH="$(go env GOPATH)"
 
 # Lux docker hub
-DOCKERHUB_REPO="luxdefi/node"
+DOCKERHUB_REPO="SkyChains/chain"
 
 # if this isn't a git repository (say building from a release), don't set our git constants.
 if [ ! -d .git ]; then

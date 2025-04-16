@@ -17,7 +17,7 @@
 package vm
 
 import (
-	"github.com/luxdefi/evm/params"
+	"github.com/SkyChains/evm/params"
 )
 
 // LookupInstructionSet returns the instructionset for the fork configured by

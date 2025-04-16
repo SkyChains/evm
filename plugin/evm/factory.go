@@ -4,9 +4,9 @@
 package evm
 
 import (
-	"github.com/luxdefi/node/ids"
-	"github.com/luxdefi/node/utils/logging"
-	"github.com/luxdefi/node/vms"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/logging"
+	"github.com/SkyChains/chain/vms"
 )
 
 var (
