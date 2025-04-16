@@ -52,10 +52,6 @@ import (
 	"github.com/SkyChains/evm/ethdb"
 	"github.com/SkyChains/evm/params"
 	"github.com/SkyChains/evm/rpc"
-<<<<<<< HEAD
-
-=======
->>>>>>> fd08c47 (Update import path)
 	"github.com/ethereum/go-ethereum"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"

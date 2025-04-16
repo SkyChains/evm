@@ -32,28 +32,12 @@ import (
 	"fmt"
 	"math/big"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 	"github.com/SkyChains/chain/snow"
-=======
 	"github.com/ethereum/go-ethereum/common"
->>>>>>> d5328b4 (Sync upstream)
 	"github.com/SkyChains/evm/commontype"
 	"github.com/SkyChains/evm/precompile/modules"
 	"github.com/SkyChains/evm/precompile/precompileconfig"
 	"github.com/SkyChains/evm/utils"
-<<<<<<< HEAD
->>>>>>> fd08c47 (Update import path)
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/SkyChains/chain/snow"
-	"github.com/SkyChains/evm/commontype"
-	"github.com/SkyChains/evm/precompile/modules"
-	"github.com/SkyChains/evm/precompile/precompileconfig"
-	"github.com/SkyChains/evm/utils"
-=======
-	"github.com/SkyChains/chain/snow"
->>>>>>> d5328b4 (Sync upstream)
 )
 
 const maxJSONLen = 64 * 1024 * 1024 // 64MB
@@ -107,11 +91,7 @@ var (
 	}
 
 	TestChainConfig = &ChainConfig{
-<<<<<<< HEAD
 		LuxContext:          LuxContext{utils.TestSnowContext()},
-=======
-		LuxContext:          LuxContext{snow.DefaultContextTest()},
->>>>>>> d5328b4 (Sync upstream)
 		ChainID:             big.NewInt(1),
 		FeeConfig:           DefaultFeeConfig,
 		AllowFeeRecipients:  false,
@@ -132,17 +112,8 @@ var (
 		UpgradeConfig:      UpgradeConfig{},
 	}
 
-<<<<<<< HEAD
-	TestSubnetEVMConfig = &ChainConfig{
-		LuxContext:          LuxContext{utils.TestSnowContext()},
-=======
 	TestEVMConfig = &ChainConfig{
-<<<<<<< HEAD
-		LuxContext:    LuxContext{snow.DefaultContextTest()},
->>>>>>> fd08c47 (Update import path)
-=======
 		LuxContext:          LuxContext{snow.DefaultContextTest()},
->>>>>>> d5328b4 (Sync upstream)
 		ChainID:             big.NewInt(1),
 		FeeConfig:           DefaultFeeConfig,
 		AllowFeeRecipients:  false,
@@ -162,17 +133,9 @@ var (
 		UpgradeConfig:      UpgradeConfig{},
 	}
 
-<<<<<<< HEAD
-	TestPreSubnetEVMConfig = &ChainConfig{
-		LuxContext:               LuxContext{utils.TestSnowContext()},
-=======
+
 	TestPreEVMConfig = &ChainConfig{
-<<<<<<< HEAD
-		LuxContext:         LuxContext{snow.DefaultContextTest()},
->>>>>>> fd08c47 (Update import path)
-=======
 		LuxContext:               LuxContext{snow.DefaultContextTest()},
->>>>>>> d5328b4 (Sync upstream)
 		ChainID:                  big.NewInt(1),
 		FeeConfig:                DefaultFeeConfig,
 		AllowFeeRecipients:       false,

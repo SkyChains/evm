@@ -26,13 +26,6 @@ Clone the repo and install the necessary packages via `yarn`.
 
 ```bash
 git clone https://github.com/SkyChains/evm.git
-<<<<<<< HEAD
-cd contracts
-npm install
-```bash
-git clone https://github.com/SkyChains/evm.git
-=======
->>>>>>> fd08c47 (Update import path)
 cd contracts
 npm install
 ```

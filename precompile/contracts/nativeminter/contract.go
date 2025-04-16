@@ -9,16 +9,10 @@ import (
 	"fmt"
 	"math/big"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 	"github.com/SkyChains/evm/precompile/allowlist"
 	"github.com/SkyChains/evm/precompile/contract"
 	"github.com/SkyChains/evm/vmerrs"
-=======
->>>>>>> fd08c47 (Update import path)
-	"github.com/ethereum/go-ethereum/common"
-=======
->>>>>>> d5328b4 (Sync upstream)
 	"github.com/SkyChains/evm/precompile/allowlist"
 	"github.com/SkyChains/evm/precompile/contract"
 	"github.com/SkyChains/evm/vmerrs"
@@ -61,12 +55,6 @@ func SetContractNativeMinterStatus(stateDB contract.StateDB, address common.Addr
 	allowlist.SetAllowListRole(stateDB, ContractAddress, address, role)
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-// PackMintNativeCoin packs [address] and [amount] into the appropriate arguments for mintNativeCoin.
-func PackMintNativeCoin(address common.Address, amount *big.Int) ([]byte, error) {
-	return NativeMinterABI.Pack("mintNativeCoin", address, amount)
-=======
 // PackMintInput packs [address] and [amount] into the appropriate arguments for minting operation.
 // Assumes that [amount] can be represented by 32 bytes.
 func PackMintInput(address common.Address, amount *big.Int) ([]byte, error) {
@@ -78,12 +66,11 @@ func PackMintInput(address common.Address, amount *big.Int) ([]byte, error) {
 	})
 
 	return res, err
->>>>>>> 9e0b39d (Update deps)
-=======
+}
+
 // PackMintNativeCoin packs [address] and [amount] into the appropriate arguments for mintNativeCoin.
 func PackMintNativeCoin(address common.Address, amount *big.Int) ([]byte, error) {
 	return NativeMinterABI.Pack("mintNativeCoin", address, amount)
->>>>>>> d5328b4 (Sync upstream)
 }
 
 // UnpackMintNativeCoinInput attempts to unpack [input] as address and amount.

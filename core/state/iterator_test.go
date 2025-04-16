@@ -29,10 +29,6 @@ package state
 import (
 	"testing"
 
-<<<<<<< HEAD
-=======
-	"github.com/SkyChains/evm/core/rawdb"
->>>>>>> fd08c47 (Update import path)
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/SkyChains/evm/core/rawdb"

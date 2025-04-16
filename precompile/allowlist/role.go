@@ -4,10 +4,7 @@
 package allowlist
 
 import (
-<<<<<<< HEAD
 	"errors"
-=======
->>>>>>> d5328b4 (Sync upstream)
 	"math/big"
 
 	"github.com/ethereum/go-ethereum/common"
@@ -83,20 +80,6 @@ func (r Role) Hash() common.Hash {
 	return common.Hash(r)
 }
 
-<<<<<<< HEAD
-func (r Role) GetSetterFunctionName() (string, error) {
-	switch r {
-	case AdminRole:
-		return "setAdmin", nil
-	case ManagerRole:
-		return "setManager", nil
-	case EnabledRole:
-		return "setEnabled", nil
-	case NoRole:
-		return "setNone", nil
-	default:
-		return "", ErrInvalidRole
-=======
 func (r Role) GetSetterFunctionName() string {
 	switch r {
 	case AdminRole:
@@ -109,7 +92,6 @@ func (r Role) GetSetterFunctionName() string {
 		return "setNone"
 	default:
 		panic("unknown role")
->>>>>>> d5328b4 (Sync upstream)
 	}
 }
 

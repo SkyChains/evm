@@ -30,10 +30,6 @@ import (
 	"fmt"
 	"sync"
 
-<<<<<<< HEAD
-=======
-	"github.com/SkyChains/evm/ethdb"
->>>>>>> fd08c47 (Update import path)
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/log"

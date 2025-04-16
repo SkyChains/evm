@@ -35,10 +35,6 @@ import (
 	"strings"
 	"testing"
 
-<<<<<<< HEAD
-=======
-	"github.com/SkyChains/evm/accounts/abi/bind"
->>>>>>> fd08c47 (Update import path)
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/SkyChains/evm/accounts/abi/bind"
 	"github.com/stretchr/testify/require"
@@ -456,11 +452,7 @@ var bindTests = []struct {
 		`"github.com/stretchr/testify/require"
 		 "math/big"
 		 "github.com/ethereum/go-ethereum/common"
-<<<<<<< HEAD
 		 "github.com/SkyChains/evm/core/state"
-=======
-		 "github.com/SkyChains/evm/core/state"
->>>>>>> fd08c47 (Update import path)
 		 "github.com/SkyChains/evm/precompile/allowlist"
 		`,
 		`

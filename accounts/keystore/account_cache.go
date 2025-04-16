@@ -37,10 +37,6 @@ import (
 	"sync"
 	"time"
 
-<<<<<<< HEAD
-=======
-	"github.com/SkyChains/evm/accounts"
->>>>>>> fd08c47 (Update import path)
 	mapset "github.com/deckarep/golang-set/v2"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"

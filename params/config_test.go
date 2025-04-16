@@ -34,13 +34,6 @@ import (
 	"testing"
 	"time"
 
-<<<<<<< HEAD
-=======
-	"github.com/SkyChains/evm/precompile/contracts/nativeminter"
-	"github.com/SkyChains/evm/precompile/contracts/rewardmanager"
-	"github.com/SkyChains/evm/precompile/contracts/txallowlist"
-	"github.com/SkyChains/evm/utils"
->>>>>>> fd08c47 (Update import path)
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/SkyChains/evm/precompile/contracts/nativeminter"
 	"github.com/SkyChains/evm/precompile/contracts/rewardmanager"
@@ -164,7 +157,6 @@ func TestConfigRules(t *testing.T) {
 	}
 
 	var stamp uint64
-<<<<<<< HEAD
 	if r := c.LuxRules(big.NewInt(0), stamp); r.IsSubnetEVM {
 		t.Errorf("expected %v to not be evm", stamp)
 	}
@@ -174,17 +166,6 @@ func TestConfigRules(t *testing.T) {
 	}
 	stamp = math.MaxInt64
 	if r := c.LuxRules(big.NewInt(0), stamp); !r.IsSubnetEVM {
-=======
-	if r := c.LuxRules(big.NewInt(0), stamp); r.IsEVM {
-		t.Errorf("expected %v to not be evm", stamp)
-	}
-	stamp = 500
-	if r := c.LuxRules(big.NewInt(0), stamp); !r.IsEVM {
-		t.Errorf("expected %v to be evm", stamp)
-	}
-	stamp = math.MaxInt64
-	if r := c.LuxRules(big.NewInt(0), stamp); !r.IsEVM {
->>>>>>> fd08c47 (Update import path)
 		t.Errorf("expected %v to be evm", stamp)
 	}
 }

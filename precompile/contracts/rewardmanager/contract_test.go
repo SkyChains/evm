@@ -6,15 +6,6 @@ package rewardmanager
 import (
 	"testing"
 
-<<<<<<< HEAD
-=======
-	"github.com/SkyChains/evm/constants"
-	"github.com/SkyChains/evm/core/state"
-	"github.com/SkyChains/evm/precompile/allowlist"
-	"github.com/SkyChains/evm/precompile/contract"
-	"github.com/SkyChains/evm/precompile/testutils"
-	"github.com/SkyChains/evm/vmerrs"
->>>>>>> fd08c47 (Update import path)
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"

@@ -39,10 +39,6 @@ import (
 	"text/template"
 	"unicode"
 
-<<<<<<< HEAD
-=======
-	"github.com/SkyChains/evm/accounts/abi"
->>>>>>> fd08c47 (Update import path)
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/SkyChains/evm/accounts/abi"
 )

@@ -9,10 +9,6 @@ import (
 
 	"github.com/SkyChains/evm/constants"
 	"github.com/SkyChains/evm/utils"
-<<<<<<< HEAD
-
-=======
->>>>>>> fd08c47 (Update import path)
 	"github.com/ethereum/go-ethereum/common"
 )
 

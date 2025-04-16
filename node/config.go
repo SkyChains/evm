@@ -31,12 +31,6 @@ import (
 	"os"
 	"path/filepath"
 
-<<<<<<< HEAD
-=======
-	"github.com/SkyChains/evm/accounts"
-	"github.com/SkyChains/evm/accounts/external"
-	"github.com/SkyChains/evm/accounts/keystore"
->>>>>>> fd08c47 (Update import path)
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/SkyChains/evm/accounts"
 	"github.com/SkyChains/evm/accounts/external"

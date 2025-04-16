@@ -48,11 +48,6 @@ else
     exit 1
 fi
 
-<<<<<<< HEAD
-# Build Subnet EVM, which is run as a subprocess
-echo "Building Subnet EVM @ GitCommit: $SUBNET_EVM_COMMIT at $BINARY_PATH"
-=======
 # Build EVM, which is run as a subprocess
 echo "Building EVM @ GitCommit: $SUBNET_EVM_COMMIT at $BINARY_PATH"
->>>>>>> fd08c47 (Update import path)
 go build -ldflags "-X github.com/SkyChains/evm/plugin/evm.GitCommit=$SUBNET_EVM_COMMIT $STATIC_LD_FLAGS" -o "$BINARY_PATH" "plugin/"*.go

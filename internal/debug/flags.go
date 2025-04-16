@@ -35,10 +35,6 @@ import (
 	"path/filepath"
 	"runtime"
 
-<<<<<<< HEAD
-=======
-	"github.com/SkyChains/evm/internal/flags"
->>>>>>> fd08c47 (Update import path)
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/fjl/memsize/memsizeui"
 	"github.com/SkyChains/evm/internal/flags"

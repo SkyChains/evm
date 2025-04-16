@@ -96,15 +96,9 @@ func newDUpgradeInstructionSet() JumpTable {
 	return validate(instructionSet)
 }
 
-<<<<<<< HEAD
 // newSubnetEVMInstructionSet returns the frontier, homestead, byzantium,
 // constantinople, istanbul, petersburg, evm instructions.
 func newSubnetEVMInstructionSet() JumpTable {
-=======
-// newEVMInstructionSet returns the frontier, homestead, byzantium,
-// constantinople, istanbul, petersburg, evm instructions.
-func newEVMInstructionSet() JumpTable {
->>>>>>> fd08c47 (Update import path)
 	instructionSet := newIstanbulInstructionSet()
 	enable2929(&instructionSet)
 	enable3198(&instructionSet) // Base fee opcode https://eips.ethereum.org/EIPS/eip-3198

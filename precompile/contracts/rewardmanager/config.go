@@ -10,10 +10,6 @@ import (
 	"github.com/SkyChains/evm/precompile/allowlist"
 	"github.com/SkyChains/evm/precompile/contract"
 	"github.com/SkyChains/evm/precompile/precompileconfig"
-<<<<<<< HEAD
-
-=======
->>>>>>> fd08c47 (Update import path)
 	"github.com/ethereum/go-ethereum/common"
 )
 

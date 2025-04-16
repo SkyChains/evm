@@ -33,19 +33,6 @@ import (
 	"strings"
 	"testing"
 
-<<<<<<< HEAD
-=======
-	"github.com/SkyChains/evm/accounts/abi"
-	"github.com/SkyChains/evm/consensus"
-	"github.com/SkyChains/evm/core"
-	"github.com/SkyChains/evm/core/rawdb"
-	"github.com/SkyChains/evm/core/state"
-	"github.com/SkyChains/evm/core/types"
-	"github.com/SkyChains/evm/core/vm"
-	"github.com/SkyChains/evm/eth/tracers"
-	"github.com/SkyChains/evm/eth/tracers/logger"
-	"github.com/SkyChains/evm/params"
->>>>>>> fd08c47 (Update import path)
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/asm"
 	"github.com/SkyChains/evm/accounts/abi"

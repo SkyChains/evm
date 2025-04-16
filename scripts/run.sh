@@ -19,21 +19,10 @@ source "$SUBNET_EVM_PATH"/scripts/versions.sh
 source "$SUBNET_EVM_PATH"/scripts/constants.sh
 
 # Set up lux binary path and assume build directory is set
-<<<<<<< HEAD
-LUXGO_BUILD_PATH=${LUXGO_BUILD_PATH:-"$GOPATH/src/github.com/SkyChains/chain/build"}
-LUXGO_PATH=${LUXGO_PATH:-"$LUXGO_BUILD_PATH/node"}
-LUXGO_PLUGIN_DIR=${LUXGO_PLUGIN_DIR:-"$LUXGO_BUILD_PATH/plugins"}
 DATA_DIR=${DATA_DIR:-/tmp/evm-start-node/$(date "+%Y-%m-%d%:%H:%M:%S")}
-=======
 LUXD_BUILD_PATH=${LUXD_BUILD_PATH:-"$GOPATH/src/github.com/SkyChains/chain/build"}
 LUXD_PATH=${LUXD_PATH:-"$LUXD_BUILD_PATH/node"}
 LUXD_PLUGIN_DIR=${LUXD_PLUGIN_DIR:-"$LUXD_BUILD_PATH/plugins"}
-<<<<<<< HEAD
-DATA_DIR=${DATA_DIR:-/tmp/subnet-evm-start-node/$(date "+%Y-%m-%d%:%H:%M:%S")}
->>>>>>> b36c20f (Update executable to luxd)
-=======
-DATA_DIR=${DATA_DIR:-/tmp/evm-start-node/$(date "+%Y-%m-%d%:%H:%M:%S")}
->>>>>>> fd08c47 (Update import path)
 
 mkdir -p $DATA_DIR
 

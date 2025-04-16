@@ -23,11 +23,7 @@ import (
 	"github.com/SkyChains/evm/precompile/precompileconfig"
 	"github.com/SkyChains/evm/precompile/testutils"
 	"github.com/SkyChains/evm/predicate"
-<<<<<<< HEAD
 	"github.com/SkyChains/evm/utils"
-=======
-	subnetEVMUtils "github.com/SkyChains/evm/utils"
->>>>>>> fd08c47 (Update import path)
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 )

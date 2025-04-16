@@ -32,10 +32,6 @@ import (
 	"os"
 
 	"github.com/SkyChains/evm/cmd/evm/internal/compiler"
-<<<<<<< HEAD
-=======
-
->>>>>>> fd08c47 (Update import path)
 	"github.com/urfave/cli/v2"
 )
 

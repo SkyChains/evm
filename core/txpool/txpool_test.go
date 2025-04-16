@@ -48,10 +48,6 @@ import (
 	"github.com/SkyChains/evm/params"
 	"github.com/SkyChains/evm/trie"
 	"github.com/SkyChains/evm/utils"
-<<<<<<< HEAD
-
-=======
->>>>>>> fd08c47 (Update import path)
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/event"

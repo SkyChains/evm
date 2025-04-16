@@ -8,18 +8,12 @@ import (
 	"testing"
 	"time"
 
-<<<<<<< HEAD
-=======
 	"github.com/SkyChains/chain/snow"
->>>>>>> fd08c47 (Update import path)
 	"github.com/SkyChains/evm/commontype"
 	"github.com/SkyChains/evm/precompile/contract"
 	"github.com/SkyChains/evm/precompile/modules"
 	"github.com/SkyChains/evm/precompile/precompileconfig"
-<<<<<<< HEAD
 	"github.com/SkyChains/evm/utils"
-=======
->>>>>>> fd08c47 (Update import path)
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
@@ -56,14 +50,7 @@ type PrecompileTest struct {
 	ExpectedErr string
 	// ChainConfigFn returns the chain config to use for the precompile's block context
 	// If nil, the default chain config will be used.
-<<<<<<< HEAD
 	ChainConfigFn func(*gomock.Controller) precompileconfig.ChainConfig
-=======
-	ChainConfig precompileconfig.ChainConfig
-	// ChainConfigFn is a function that returns the chain config to use for the precompile's block context
-	// If specified, ChainConfig will be ignored.
-	ChainConfigFn func(t testing.TB) precompileconfig.ChainConfig
->>>>>>> d5328b4 (Sync upstream)
 }
 
 type PrecompileRunparams struct {
@@ -104,7 +91,6 @@ func (test PrecompileTest) setup(t testing.TB, module modules.Module, state cont
 		test.BeforeHook(t, state)
 	}
 
-<<<<<<< HEAD
 	if test.ChainConfigFn == nil {
 		test.ChainConfigFn = func(ctrl *gomock.Controller) precompileconfig.ChainConfig {
 			mockChainConfig := precompileconfig.NewMockChainConfig(ctrl)
@@ -113,18 +99,6 @@ func (test PrecompileTest) setup(t testing.TB, module modules.Module, state cont
 			mockChainConfig.EXPECT().IsDUpgrade(gomock.Any()).AnyTimes().Return(true)
 			return mockChainConfig
 		}
-=======
-	chainConfig := test.ChainConfig
-	if test.ChainConfigFn != nil {
-		chainConfig = test.ChainConfigFn(t)
-	}
-	if chainConfig == nil {
-		mockChainConfig := precompileconfig.NewMockChainConfig(ctrl)
-		mockChainConfig.EXPECT().GetFeeConfig().AnyTimes().Return(commontype.ValidTestFeeConfig)
-		mockChainConfig.EXPECT().AllowedFeeRecipients().AnyTimes().Return(false)
-		mockChainConfig.EXPECT().IsDUpgrade(gomock.Any()).AnyTimes().Return(true)
-		chainConfig = mockChainConfig
->>>>>>> d5328b4 (Sync upstream)
 	}
 	chainConfig := test.ChainConfigFn(ctrl)
 

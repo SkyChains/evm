@@ -34,10 +34,6 @@ import (
 	"math/big"
 	"os"
 
-<<<<<<< HEAD
-=======
-	"github.com/SkyChains/evm/core/types"
->>>>>>> fd08c47 (Update import path)
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/common/math"

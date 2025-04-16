@@ -37,10 +37,6 @@ import (
 	"github.com/SkyChains/evm/ethdb"
 	"github.com/SkyChains/evm/metrics"
 	"github.com/SkyChains/evm/trie/trienode"
-<<<<<<< HEAD
-
-=======
->>>>>>> fd08c47 (Update import path)
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/rlp"

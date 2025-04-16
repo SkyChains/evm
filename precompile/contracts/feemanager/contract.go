@@ -9,14 +9,7 @@ import (
 	"fmt"
 	"math/big"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 	"github.com/SkyChains/evm/accounts/abi"
-=======
->>>>>>> fd08c47 (Update import path)
-=======
-	"github.com/SkyChains/evm/accounts/abi"
->>>>>>> d5328b4 (Sync upstream)
 	"github.com/SkyChains/evm/commontype"
 	"github.com/SkyChains/evm/precompile/allowlist"
 	"github.com/SkyChains/evm/precompile/contract"

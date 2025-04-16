@@ -10,11 +10,7 @@ import (
 
 	"github.com/SkyChains/evm/params"
 	"github.com/SkyChains/evm/utils"
-<<<<<<< HEAD
-=======
-
 	"github.com/SkyChains/chain/snow"
->>>>>>> fd08c47 (Update import path)
 )
 
 func attemptAwait(t *testing.T, wg *sync.WaitGroup, delay time.Duration) {

@@ -11,14 +11,7 @@ import (
 	"github.com/SkyChains/evm/core/state"
 	"github.com/SkyChains/evm/precompile/allowlist"
 	"github.com/SkyChains/evm/precompile/contract"
-<<<<<<< HEAD
-<<<<<<< HEAD
 	"github.com/SkyChains/evm/precompile/precompileconfig"
-=======
->>>>>>> fd08c47 (Update import path)
-=======
-	"github.com/SkyChains/evm/precompile/precompileconfig"
->>>>>>> d5328b4 (Sync upstream)
 	"github.com/SkyChains/evm/precompile/testutils"
 	"github.com/SkyChains/evm/vmerrs"
 	"github.com/ethereum/go-ethereum/common"
@@ -315,13 +308,8 @@ var (
 				input = append(input, make([]byte, 32)...)
 				return input
 			},
-<<<<<<< HEAD
-			ChainConfigFn: func(ctrl *gomock.Controller) precompileconfig.ChainConfig {
-				config := precompileconfig.NewMockChainConfig(ctrl)
-=======
 			ChainConfigFn: func(t testing.TB) precompileconfig.ChainConfig {
 				config := precompileconfig.NewMockChainConfig(gomock.NewController(t))
->>>>>>> d5328b4 (Sync upstream)
 				config.EXPECT().IsDUpgrade(gomock.Any()).Return(false).AnyTimes()
 				return config
 			},
@@ -343,21 +331,12 @@ var (
 				input = append(input, make([]byte, 32)...)
 				return input
 			},
-<<<<<<< HEAD
 			ChainConfigFn: func(ctrl *gomock.Controller) precompileconfig.ChainConfig {
 				config := precompileconfig.NewMockChainConfig(ctrl)
 				config.EXPECT().IsDUpgrade(gomock.Any()).Return(true).AnyTimes()
 				return config
 			},
 			SuppliedGas: SetFeeConfigGasCost + FeeConfigChangedEventGasCost,
-=======
-			ChainConfigFn: func(t testing.TB) precompileconfig.ChainConfig {
-				config := precompileconfig.NewMockChainConfig(gomock.NewController(t))
-				config.EXPECT().IsDUpgrade(gomock.Any()).Return(true).AnyTimes()
-				return config
-			},
-			SuppliedGas: SetFeeConfigGasCost,
->>>>>>> d5328b4 (Sync upstream)
 			ReadOnly:    false,
 			ExpectedRes: []byte{},
 			SetupBlockContext: func(mbc *contract.MockBlockContext) {
@@ -369,12 +348,9 @@ var (
 				require.Equal(t, testFeeConfig, feeConfig)
 				lastChangedAt := GetFeeConfigLastChangedAt(state)
 				require.EqualValues(t, testBlockNumber, lastChangedAt)
-<<<<<<< HEAD
 
 				logsTopics, logsData := state.GetLogData()
 				assertFeeEvent(t, logsTopics, logsData, allowlist.TestEnabledAddr, zeroFeeConfig, testFeeConfig)
-=======
->>>>>>> d5328b4 (Sync upstream)
 			},
 		},
 		// from https://github.com/SkyChains/evm/issues/487
@@ -382,13 +358,8 @@ var (
 			Caller:     allowlist.TestEnabledAddr,
 			BeforeHook: allowlist.SetDefaultRoles(Module.Address),
 			Input:      common.Hex2Bytes(regressionBytes),
-<<<<<<< HEAD
 			ChainConfigFn: func(ctrl *gomock.Controller) precompileconfig.ChainConfig {
 				config := precompileconfig.NewMockChainConfig(ctrl)
-=======
-			ChainConfigFn: func(t testing.TB) precompileconfig.ChainConfig {
-				config := precompileconfig.NewMockChainConfig(gomock.NewController(t))
->>>>>>> d5328b4 (Sync upstream)
 				config.EXPECT().IsDUpgrade(gomock.Any()).Return(false).AnyTimes()
 				return config
 			},
@@ -404,21 +375,12 @@ var (
 			Caller:     allowlist.TestEnabledAddr,
 			BeforeHook: allowlist.SetDefaultRoles(Module.Address),
 			Input:      common.Hex2Bytes(regressionBytes),
-<<<<<<< HEAD
 			ChainConfigFn: func(ctrl *gomock.Controller) precompileconfig.ChainConfig {
 				config := precompileconfig.NewMockChainConfig(ctrl)
 				config.EXPECT().IsDUpgrade(gomock.Any()).Return(true).AnyTimes()
 				return config
 			},
 			SuppliedGas: SetFeeConfigGasCost + FeeConfigChangedEventGasCost,
-=======
-			ChainConfigFn: func(t testing.TB) precompileconfig.ChainConfig {
-				config := precompileconfig.NewMockChainConfig(gomock.NewController(t))
-				config.EXPECT().IsDUpgrade(gomock.Any()).Return(true).AnyTimes()
-				return config
-			},
-			SuppliedGas: SetFeeConfigGasCost,
->>>>>>> d5328b4 (Sync upstream)
 			ReadOnly:    false,
 			ExpectedRes: []byte{},
 			SetupBlockContext: func(mbc *contract.MockBlockContext) {
@@ -430,7 +392,6 @@ var (
 				require.Equal(t, regressionFeeConfig, feeConfig)
 				lastChangedAt := GetFeeConfigLastChangedAt(state)
 				require.EqualValues(t, testBlockNumber, lastChangedAt)
-<<<<<<< HEAD
 
 				logsTopics, logsData := state.GetLogData()
 				assertFeeEvent(t, logsTopics, logsData, allowlist.TestEnabledAddr, zeroFeeConfig, regressionFeeConfig)
@@ -456,8 +417,6 @@ var (
 				logsTopics, logsData := state.GetLogData()
 				require.Len(t, logsTopics, 0)
 				require.Len(t, logsData, 0)
-=======
->>>>>>> d5328b4 (Sync upstream)
 			},
 		},
 	}

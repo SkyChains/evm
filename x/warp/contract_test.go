@@ -18,10 +18,7 @@ import (
 	"github.com/SkyChains/evm/precompile/contract"
 	"github.com/SkyChains/evm/precompile/testutils"
 	"github.com/SkyChains/evm/predicate"
-<<<<<<< HEAD
 	"github.com/SkyChains/evm/utils"
-=======
->>>>>>> fd08c47 (Update import path)
 	"github.com/SkyChains/evm/vmerrs"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/stretchr/testify/require"

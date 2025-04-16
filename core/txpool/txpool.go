@@ -43,10 +43,7 @@ import (
 	"github.com/SkyChains/evm/core/types"
 	"github.com/SkyChains/evm/metrics"
 	"github.com/SkyChains/evm/params"
-<<<<<<< HEAD
 	"github.com/SkyChains/evm/precompile"
-=======
->>>>>>> fd08c47 (Update import path)
 	"github.com/SkyChains/evm/precompile/contracts/feemanager"
 	"github.com/SkyChains/evm/precompile/contracts/txallowlist"
 	"github.com/SkyChains/evm/utils"

@@ -10,13 +10,7 @@ import (
 
 	"github.com/SkyChains/evm/accounts/abi"
 	"github.com/SkyChains/evm/vmerrs"
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 	"github.com/ethereum/go-ethereum/common"
->>>>>>> fd08c47 (Update import path)
-=======
->>>>>>> d5328b4 (Sync upstream)
 	"github.com/ethereum/go-ethereum/crypto"
 )
 

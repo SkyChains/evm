@@ -37,10 +37,6 @@ import (
 	"github.com/SkyChains/evm/precompile/contract"
 	"github.com/SkyChains/evm/precompile/modules"
 	"github.com/SkyChains/evm/vmerrs"
-<<<<<<< HEAD
-
-=======
->>>>>>> fd08c47 (Update import path)
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/math"
 	"github.com/ethereum/go-ethereum/crypto"

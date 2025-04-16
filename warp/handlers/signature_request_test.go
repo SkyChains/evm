@@ -16,13 +16,9 @@ import (
 	"github.com/SkyChains/chain/snow/engine/snowman/block"
 	"github.com/SkyChains/chain/utils/crypto/bls"
 	luxWarp "github.com/SkyChains/chain/vms/platformvm/warp"
-<<<<<<< HEAD
 	"github.com/SkyChains/chain/vms/platformvm/warp/payload"
 	"github.com/SkyChains/evm/plugin/evm/message"
 	"github.com/SkyChains/evm/utils"
-=======
-	"github.com/SkyChains/evm/plugin/evm/message"
->>>>>>> fd08c47 (Update import path)
 	"github.com/SkyChains/evm/warp"
 	"github.com/stretchr/testify/require"
 )
