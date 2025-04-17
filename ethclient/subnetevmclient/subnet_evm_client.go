@@ -33,10 +33,10 @@ import (
 	"runtime"
 	"runtime/debug"
 
-	"github.com/SkyChains/evm/core/types"
-	"github.com/SkyChains/evm/ethclient"
-	"github.com/SkyChains/evm/interfaces"
-	"github.com/SkyChains/evm/rpc"
+	"github.com/skychains/evm/core/types"
+	"github.com/skychains/evm/ethclient"
+	"github.com/skychains/evm/interfaces"
+	"github.com/skychains/evm/rpc"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 )

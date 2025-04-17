@@ -32,10 +32,10 @@ import (
 	"math/big"
 	"sync/atomic"
 
-	"github.com/SkyChains/evm/accounts/abi"
-	"github.com/SkyChains/evm/core/vm"
-	"github.com/SkyChains/evm/eth/tracers"
-	"github.com/SkyChains/evm/vmerrs"
+	"github.com/skychains/evm/accounts/abi"
+	"github.com/skychains/evm/core/vm"
+	"github.com/skychains/evm/eth/tracers"
+	"github.com/skychains/evm/vmerrs"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 )

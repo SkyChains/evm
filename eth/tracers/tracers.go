@@ -23,7 +23,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/SkyChains/evm/core/vm"
+	"github.com/skychains/evm/core/vm"
 	"github.com/ethereum/go-ethereum/common"
 )
 

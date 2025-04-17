@@ -8,9 +8,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/SkyChains/chain/utils/formatting"
-	"github.com/SkyChains/evm/core"
-	"github.com/SkyChains/evm/params"
+	"github.com/skychains/chain/utils/formatting"
+	"github.com/skychains/evm/core"
+	"github.com/skychains/evm/params"
 	"github.com/stretchr/testify/assert"
 )
 

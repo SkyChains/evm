@@ -7,7 +7,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/SkyChains/evm/constants"
+	"github.com/skychains/evm/constants"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/stretchr/testify/require"
 )

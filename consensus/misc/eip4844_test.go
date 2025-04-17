@@ -21,7 +21,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/SkyChains/evm/params"
+	"github.com/skychains/evm/params"
 )
 
 func TestCalcBlobFee(t *testing.T) {

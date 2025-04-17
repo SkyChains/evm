@@ -22,8 +22,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/SkyChains/evm/core/types"
-	"github.com/SkyChains/evm/ethdb"
+	"github.com/skychains/evm/core/types"
+	"github.com/skychains/evm/ethdb"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/rlp"
 	"golang.org/x/crypto/sha3"

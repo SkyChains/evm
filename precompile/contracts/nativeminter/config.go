@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/SkyChains/evm/precompile/allowlist"
-	"github.com/SkyChains/evm/precompile/precompileconfig"
-	"github.com/SkyChains/evm/utils"
+	"github.com/skychains/evm/precompile/allowlist"
+	"github.com/skychains/evm/precompile/precompileconfig"
+	"github.com/skychains/evm/utils"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/math"
 )

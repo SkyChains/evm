@@ -4,9 +4,9 @@
 package evm
 
 import (
-	"github.com/SkyChains/evm/ethdb"
+	"github.com/skychains/evm/ethdb"
 
-	"github.com/SkyChains/chain/database"
+	"github.com/skychains/chain/database"
 )
 
 var _ ethdb.Database = &Database{}

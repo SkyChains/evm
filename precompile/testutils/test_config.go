@@ -6,8 +6,8 @@ package testutils
 import (
 	"testing"
 
-	"github.com/SkyChains/evm/commontype"
-	"github.com/SkyChains/evm/precompile/precompileconfig"
+	"github.com/skychains/evm/commontype"
+	"github.com/skychains/evm/precompile/precompileconfig"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 )

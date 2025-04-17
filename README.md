@@ -1,13 +1,13 @@
 # EVM
 
-[![Build + Test + Release](https://github.com/SkyChains/evm/actions/workflows/lint-tests-release.yml/badge.svg)](https://github.com/SkyChains/evm/actions/workflows/lint-tests-release.yml)
-[![CodeQL](https://github.com/SkyChains/evm/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/SkyChains/evm/actions/workflows/codeql-analysis.yml)
+[![Build + Test + Release](https://github.com/skychains/evm/actions/workflows/lint-tests-release.yml/badge.svg)](https://github.com/skychains/evm/actions/workflows/lint-tests-release.yml)
+[![CodeQL](https://github.com/skychains/evm/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/skychains/evm/actions/workflows/codeql-analysis.yml)
 
 [Lux](https://docs.lux.network/overview/getting-started/lux-platform) is a network composed of multiple blockchains.
 Each blockchain is an instance of a Virtual Machine (VM), much like an object in an object-oriented language is an instance of a class.
 That is, the VM defines the behavior of the blockchain.
 
-EVM is the [Virtual Machine (VM)](https://docs.lux.network/learn/lux/virtual-machines) that defines the Subnet Contract Chains. EVM is a simplified version of [Coreth VM (C-Chain)](https://github.com/SkyChains/coreth).
+EVM is the [Virtual Machine (VM)](https://docs.lux.network/learn/lux/virtual-machines) that defines the Subnet Contract Chains. EVM is a simplified version of [Coreth VM (C-Chain)](https://github.com/skychains/coreth).
 
 This chain implements the Ethereum Virtual Machine and supports Solidity smart contracts as well as most other Ethereum client functionality.
 
@@ -67,7 +67,7 @@ The EVM supports the following API namespaces:
 - `debug`
 
 Only the `eth` namespace is enabled by default.
-EVM is a simplified version of [Coreth VM (C-Chain)](https://github.com/SkyChains/coreth).
+EVM is a simplified version of [Coreth VM (C-Chain)](https://github.com/skychains/coreth).
 Full documentation for the C-Chain's API can be found [here](https://docs.lux.network/apis/node/apis/c-chain).
 
 ## Compatibility
@@ -104,9 +104,9 @@ Download the `evm` repository into your `$GOPATH`:
 
 ```sh
 cd $GOPATH
-mkdir -p src/github.com/SkyChains
-cd src/github.com/SkyChains
-git clone git@github.com:SkyChains/evm.git
+mkdir -p src/github.com/skychains
+cd src/github.com/skychains
+git clone git@github.com:skychains/evm.git
 cd evm
 ```
 
@@ -114,7 +114,7 @@ This will clone and checkout to `master` branch.
 
 ### Run Local Network
 
-To run a local network, it is recommended to use the [cli](https://github.com/SkyChains/cli#cli) to set up an instance of EVM on an local Lux Network.
+To run a local network, it is recommended to use the [cli](https://github.com/skychains/cli#cli) to set up an instance of EVM on an local Lux Network.
 
 There are two options when using the cli:
 

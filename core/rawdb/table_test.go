@@ -30,7 +30,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/SkyChains/evm/ethdb"
+	"github.com/skychains/evm/ethdb"
 )
 
 func TestTableDatabase(t *testing.T)            { testTableDatabase(t, "prefix") }

@@ -4,9 +4,9 @@
 package feemanager
 
 import (
-	"github.com/SkyChains/evm/commontype"
-	"github.com/SkyChains/evm/precompile/allowlist"
-	"github.com/SkyChains/evm/precompile/precompileconfig"
+	"github.com/skychains/evm/commontype"
+	"github.com/skychains/evm/precompile/allowlist"
+	"github.com/skychains/evm/precompile/precompileconfig"
 	"github.com/ethereum/go-ethereum/common"
 )
 

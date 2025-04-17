@@ -6,10 +6,10 @@ package allowlist
 import (
 	"testing"
 
-	"github.com/SkyChains/evm/core/state"
-	"github.com/SkyChains/evm/precompile/contract"
-	"github.com/SkyChains/evm/precompile/modules"
-	"github.com/SkyChains/evm/precompile/precompileconfig"
+	"github.com/skychains/evm/core/state"
+	"github.com/skychains/evm/precompile/contract"
+	"github.com/skychains/evm/precompile/modules"
+	"github.com/skychains/evm/precompile/precompileconfig"
 	"github.com/ethereum/go-ethereum/common"
 )
 

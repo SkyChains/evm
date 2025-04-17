@@ -7,13 +7,13 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/SkyChains/evm/commontype"
-	"github.com/SkyChains/evm/core/state"
-	"github.com/SkyChains/evm/precompile/allowlist"
-	"github.com/SkyChains/evm/precompile/contract"
-	"github.com/SkyChains/evm/precompile/precompileconfig"
-	"github.com/SkyChains/evm/precompile/testutils"
-	"github.com/SkyChains/evm/vmerrs"
+	"github.com/skychains/evm/commontype"
+	"github.com/skychains/evm/core/state"
+	"github.com/skychains/evm/precompile/allowlist"
+	"github.com/skychains/evm/precompile/contract"
+	"github.com/skychains/evm/precompile/precompileconfig"
+	"github.com/skychains/evm/precompile/testutils"
+	"github.com/skychains/evm/vmerrs"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
@@ -353,7 +353,7 @@ var (
 				assertFeeEvent(t, logsTopics, logsData, allowlist.TestEnabledAddr, zeroFeeConfig, testFeeConfig)
 			},
 		},
-		// from https://github.com/SkyChains/evm/issues/487
+		// from https://github.com/skychains/evm/issues/487
 		"setFeeConfig regression test should fail before DUpgrade": {
 			Caller:     allowlist.TestEnabledAddr,
 			BeforeHook: allowlist.SetDefaultRoles(Module.Address),

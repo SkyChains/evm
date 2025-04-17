@@ -7,11 +7,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/SkyChains/chain/database"
-	"github.com/SkyChains/chain/snow/engine/snowman/block"
+	"github.com/skychains/chain/database"
+	"github.com/skychains/chain/snow/engine/snowman/block"
 
-	"github.com/SkyChains/evm/core"
-	"github.com/SkyChains/evm/plugin/evm/message"
+	"github.com/skychains/evm/core"
+	"github.com/skychains/evm/plugin/evm/message"
 	"github.com/ethereum/go-ethereum/log"
 )
 

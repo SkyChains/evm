@@ -37,13 +37,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/SkyChains/evm/consensus"
-	"github.com/SkyChains/evm/consensus/dummy"
-	"github.com/SkyChains/evm/core/rawdb"
-	"github.com/SkyChains/evm/core/types"
-	"github.com/SkyChains/evm/core/vm"
-	"github.com/SkyChains/evm/ethdb"
-	"github.com/SkyChains/evm/params"
+	"github.com/skychains/evm/consensus"
+	"github.com/skychains/evm/consensus/dummy"
+	"github.com/skychains/evm/core/rawdb"
+	"github.com/skychains/evm/core/types"
+	"github.com/skychains/evm/core/vm"
+	"github.com/skychains/evm/ethdb"
+	"github.com/skychains/evm/params"
 	"github.com/ethereum/go-ethereum/common"
 )
 

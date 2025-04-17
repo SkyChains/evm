@@ -35,9 +35,9 @@ import (
 
 	_ "embed"
 
-	"github.com/SkyChains/evm/accounts/abi/bind"
-	"github.com/SkyChains/evm/accounts/abi/bind/precompilebind"
-	"github.com/SkyChains/evm/internal/flags"
+	"github.com/skychains/evm/accounts/abi/bind"
+	"github.com/skychains/evm/accounts/abi/bind/precompilebind"
+	"github.com/skychains/evm/internal/flags"
 	"github.com/ethereum/go-ethereum/cmd/utils"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/urfave/cli/v2"

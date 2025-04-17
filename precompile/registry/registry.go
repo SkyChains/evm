@@ -7,19 +7,19 @@ package registry
 // Force imports of each precompile to ensure each precompile's init function runs and registers itself
 // with the registry.
 import (
-	_ "github.com/SkyChains/evm/precompile/contracts/deployerallowlist"
+	_ "github.com/skychains/evm/precompile/contracts/deployerallowlist"
 
-	_ "github.com/SkyChains/evm/precompile/contracts/nativeminter"
+	_ "github.com/skychains/evm/precompile/contracts/nativeminter"
 
-	_ "github.com/SkyChains/evm/precompile/contracts/txallowlist"
+	_ "github.com/skychains/evm/precompile/contracts/txallowlist"
 
-	_ "github.com/SkyChains/evm/precompile/contracts/feemanager"
+	_ "github.com/skychains/evm/precompile/contracts/feemanager"
 
-	_ "github.com/SkyChains/evm/precompile/contracts/rewardmanager"
+	_ "github.com/skychains/evm/precompile/contracts/rewardmanager"
 
-	_ "github.com/SkyChains/evm/x/warp"
+	_ "github.com/skychains/evm/x/warp"
 	// ADD YOUR PRECOMPILE HERE
-	// _ "github.com/SkyChains/evm/precompile/contracts/yourprecompile"
+	// _ "github.com/skychains/evm/precompile/contracts/yourprecompile"
 )
 
 // This list is kept just for reference. The actual addresses defined in respective packages of precompiles.

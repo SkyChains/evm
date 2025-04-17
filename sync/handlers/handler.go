@@ -4,8 +4,8 @@
 package handlers
 
 import (
-	"github.com/SkyChains/evm/core/state/snapshot"
-	"github.com/SkyChains/evm/core/types"
+	"github.com/skychains/evm/core/state/snapshot"
+	"github.com/skychains/evm/core/types"
 	"github.com/ethereum/go-ethereum/common"
 )
 

@@ -32,8 +32,8 @@ import (
 	"strconv"
 	"sync/atomic"
 
-	"github.com/SkyChains/evm/core/vm"
-	"github.com/SkyChains/evm/eth/tracers"
+	"github.com/skychains/evm/core/vm"
+	"github.com/skychains/evm/eth/tracers"
 	"github.com/ethereum/go-ethereum/common"
 )
 

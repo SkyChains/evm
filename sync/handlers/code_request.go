@@ -7,13 +7,13 @@ import (
 	"context"
 	"time"
 
-	"github.com/SkyChains/chain/codec"
-	"github.com/SkyChains/chain/ids"
+	"github.com/skychains/chain/codec"
+	"github.com/skychains/chain/ids"
 
-	"github.com/SkyChains/evm/core/rawdb"
-	"github.com/SkyChains/evm/ethdb"
-	"github.com/SkyChains/evm/plugin/evm/message"
-	"github.com/SkyChains/evm/sync/handlers/stats"
+	"github.com/skychains/evm/core/rawdb"
+	"github.com/skychains/evm/ethdb"
+	"github.com/skychains/evm/plugin/evm/message"
+	"github.com/skychains/evm/sync/handlers/stats"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 )

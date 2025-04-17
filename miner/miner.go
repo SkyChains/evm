@@ -28,13 +28,13 @@
 package miner
 
 import (
-	"github.com/SkyChains/chain/utils/timer/mockable"
-	"github.com/SkyChains/evm/consensus"
-	"github.com/SkyChains/evm/core"
-	"github.com/SkyChains/evm/core/txpool"
-	"github.com/SkyChains/evm/core/types"
-	"github.com/SkyChains/evm/params"
-	"github.com/SkyChains/evm/precompile/precompileconfig"
+	"github.com/skychains/chain/utils/timer/mockable"
+	"github.com/skychains/evm/consensus"
+	"github.com/skychains/evm/core"
+	"github.com/skychains/evm/core/txpool"
+	"github.com/skychains/evm/core/types"
+	"github.com/skychains/evm/params"
+	"github.com/skychains/evm/precompile/precompileconfig"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/event"
 )

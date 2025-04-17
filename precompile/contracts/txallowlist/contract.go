@@ -4,8 +4,8 @@
 package txallowlist
 
 import (
-	"github.com/SkyChains/evm/precompile/allowlist"
-	"github.com/SkyChains/evm/precompile/contract"
+	"github.com/skychains/evm/precompile/allowlist"
+	"github.com/skychains/evm/precompile/contract"
 	"github.com/ethereum/go-ethereum/common"
 )
 

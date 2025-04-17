@@ -51,7 +51,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/SkyChains/evm/accounts"
+	"github.com/skychains/evm/accounts"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/event"
 	"github.com/ethereum/go-ethereum/log"

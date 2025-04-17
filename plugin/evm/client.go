@@ -7,8 +7,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/SkyChains/chain/api"
-	"github.com/SkyChains/chain/utils/rpc"
+	"github.com/skychains/chain/api"
+	"github.com/skychains/chain/utils/rpc"
 	"github.com/ethereum/go-ethereum/log"
 )
 

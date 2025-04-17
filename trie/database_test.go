@@ -27,9 +27,9 @@
 package trie
 
 import (
-	"github.com/SkyChains/evm/core/rawdb"
-	"github.com/SkyChains/evm/ethdb"
-	"github.com/SkyChains/evm/trie/triedb/hashdb"
+	"github.com/skychains/evm/core/rawdb"
+	"github.com/skychains/evm/ethdb"
+	"github.com/skychains/evm/trie/triedb/hashdb"
 )
 
 // newTestDatabase initializes the trie database with specified scheme.

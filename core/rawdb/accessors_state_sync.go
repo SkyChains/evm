@@ -6,8 +6,8 @@ package rawdb
 import (
 	"encoding/binary"
 
-	"github.com/SkyChains/chain/utils/wrappers"
-	"github.com/SkyChains/evm/ethdb"
+	"github.com/skychains/chain/utils/wrappers"
+	"github.com/skychains/evm/ethdb"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 )

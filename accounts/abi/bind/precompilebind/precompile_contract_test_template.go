@@ -14,12 +14,12 @@ import (
 	"testing"
 	"math/big"
 
-	"github.com/SkyChains/evm/core/state"
+	"github.com/skychains/evm/core/state"
 	{{- if .Contract.AllowList}}
-	"github.com/SkyChains/evm/precompile/allowlist"
+	"github.com/skychains/evm/precompile/allowlist"
 	{{- end}}
-	"github.com/SkyChains/evm/precompile/testutils"
-	"github.com/SkyChains/evm/vmerrs"
+	"github.com/skychains/evm/precompile/testutils"
+	"github.com/skychains/evm/vmerrs"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/stretchr/testify/require"
 )

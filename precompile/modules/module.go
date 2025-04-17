@@ -6,7 +6,7 @@ package modules
 import (
 	"bytes"
 
-	"github.com/SkyChains/evm/precompile/contract"
+	"github.com/skychains/evm/precompile/contract"
 	"github.com/ethereum/go-ethereum/common"
 )
 

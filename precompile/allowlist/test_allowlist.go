@@ -7,11 +7,11 @@ import (
 	"testing"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/SkyChains/evm/precompile/contract"
-	"github.com/SkyChains/evm/precompile/modules"
-	"github.com/SkyChains/evm/precompile/precompileconfig"
-	"github.com/SkyChains/evm/precompile/testutils"
-	"github.com/SkyChains/evm/vmerrs"
+	"github.com/skychains/evm/precompile/contract"
+	"github.com/skychains/evm/precompile/modules"
+	"github.com/skychains/evm/precompile/precompileconfig"
+	"github.com/skychains/evm/precompile/testutils"
+	"github.com/skychains/evm/vmerrs"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 )

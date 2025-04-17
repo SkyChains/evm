@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/SkyChains/evm/params"
-	"github.com/SkyChains/evm/utils"
-	"github.com/SkyChains/chain/snow"
+	"github.com/skychains/evm/params"
+	"github.com/skychains/evm/utils"
+	"github.com/skychains/chain/snow"
 )
 
 func attemptAwait(t *testing.T, wg *sync.WaitGroup, delay time.Duration) {

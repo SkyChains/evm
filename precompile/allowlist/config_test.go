@@ -6,7 +6,7 @@ package allowlist
 import (
 	"testing"
 
-	"github.com/SkyChains/evm/precompile/modules"
+	"github.com/skychains/evm/precompile/modules"
 )
 
 var testModule = modules.Module{

@@ -33,7 +33,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/SkyChains/evm/core/types"
+	"github.com/skychains/evm/core/types"
 )
 
 type blockAndState struct {

@@ -35,7 +35,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/SkyChains/evm/core/types"
+	"github.com/skychains/evm/core/types"
 	"github.com/ethereum/go-ethereum/common"
 )
 

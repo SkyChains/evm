@@ -31,8 +31,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/SkyChains/evm/core/types"
-	"github.com/SkyChains/evm/precompile/contract"
+	"github.com/skychains/evm/core/types"
+	"github.com/skychains/evm/precompile/contract"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/stretchr/testify/require"

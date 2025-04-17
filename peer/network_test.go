@@ -12,21 +12,21 @@ import (
 	"testing"
 	"time"
 
-	"github.com/SkyChains/chain/network/p2p"
-	"github.com/SkyChains/chain/snow/engine/common"
-	"github.com/SkyChains/chain/utils/logging"
-	"github.com/SkyChains/chain/utils/set"
+	"github.com/skychains/chain/network/p2p"
+	"github.com/skychains/chain/snow/engine/common"
+	"github.com/skychains/chain/utils/logging"
+	"github.com/skychains/chain/utils/set"
 	ethcommon "github.com/ethereum/go-ethereum/common"
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/SkyChains/evm/plugin/evm/message"
+	"github.com/skychains/evm/plugin/evm/message"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/SkyChains/chain/codec"
-	"github.com/SkyChains/chain/codec/linearcodec"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/version"
+	"github.com/skychains/chain/codec"
+	"github.com/skychains/chain/codec/linearcodec"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/version"
 )
 
 var (

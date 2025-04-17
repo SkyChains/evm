@@ -9,13 +9,13 @@ import (
 	"os"
 	"time"
 
-	runner_sdk "github.com/SkyChains/netrunner/client"
-	"github.com/SkyChains/netrunner/rpcpb"
-	runner_server "github.com/SkyChains/netrunner/server"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/logging"
-	"github.com/SkyChains/chain/utils/wrappers"
-	"github.com/SkyChains/evm/plugin/evm"
+	runner_sdk "github.com/skychains/netrunner/client"
+	"github.com/skychains/netrunner/rpcpb"
+	runner_server "github.com/skychains/netrunner/server"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/logging"
+	"github.com/skychains/chain/utils/wrappers"
+	"github.com/skychains/evm/plugin/evm"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/onsi/ginkgo/v2"
 	"github.com/onsi/gomega"
@@ -56,15 +56,15 @@ type NetworkManager struct {
 
 // NewDefaultANRConfig returns a default config for launching the netrunner manager
 // with both a server and client.
-// By default, it expands $GOPATH/src/github.com/SkyChains/chain/build/ directory to extract
+// By default, it expands $GOPATH/src/github.com/skychains/chain/build/ directory to extract
 // the LuxdExecPath and PluginDir arguments.
 // If the LUXD_BUILD_PATH environment variable is set, it overrides the default location for
 // the LuxdExecPath and PluginDir arguments.
 func NewDefaultANRConfig() ANRConfig {
 	defaultConfig := ANRConfig{
 		LogLevel:            "info",
-		LuxdExecPath: os.ExpandEnv("$GOPATH/src/github.com/SkyChains/chain/build/node"),
-		PluginDir:           os.ExpandEnv("$GOPATH/src/github.com/SkyChains/chain/build/plugins"),
+		LuxdExecPath: os.ExpandEnv("$GOPATH/src/github.com/skychains/chain/build/node"),
+		PluginDir:           os.ExpandEnv("$GOPATH/src/github.com/skychains/chain/build/plugins"),
 		GlobalNodeConfig: `{
 			"log-display-level":"info",
 			"proposervm-use-current-height":true

@@ -7,8 +7,8 @@ import (
 	"encoding/base64"
 	"testing"
 
-	"github.com/SkyChains/chain/utils"
-	"github.com/SkyChains/chain/utils/units"
+	"github.com/skychains/chain/utils"
+	"github.com/skychains/chain/utils/units"
 
 	"github.com/stretchr/testify/assert"
 )

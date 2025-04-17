@@ -7,14 +7,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/SkyChains/chain/utils/timer"
-	"github.com/SkyChains/evm/core"
-	"github.com/SkyChains/evm/core/txpool"
-	"github.com/SkyChains/evm/params"
+	"github.com/skychains/chain/utils/timer"
+	"github.com/skychains/evm/core"
+	"github.com/skychains/evm/core/txpool"
+	"github.com/skychains/evm/params"
 
 	"github.com/ethereum/go-ethereum/log"
-	"github.com/SkyChains/chain/snow"
-	commonEng "github.com/SkyChains/chain/snow/engine/common"
+	"github.com/skychains/chain/snow"
+	commonEng "github.com/skychains/chain/snow/engine/common"
 )
 
 const (

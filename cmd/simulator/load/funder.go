@@ -9,12 +9,12 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/SkyChains/evm/cmd/simulator/key"
-	"github.com/SkyChains/evm/cmd/simulator/metrics"
-	"github.com/SkyChains/evm/cmd/simulator/txs"
-	"github.com/SkyChains/evm/core/types"
-	"github.com/SkyChains/evm/ethclient"
-	"github.com/SkyChains/evm/params"
+	"github.com/skychains/evm/cmd/simulator/key"
+	"github.com/skychains/evm/cmd/simulator/metrics"
+	"github.com/skychains/evm/cmd/simulator/txs"
+	"github.com/skychains/evm/core/types"
+	"github.com/skychains/evm/ethclient"
+	"github.com/skychains/evm/params"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 )

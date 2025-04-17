@@ -10,13 +10,13 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/SkyChains/chain/utils/timer/mockable"
-	"github.com/SkyChains/evm/consensus"
-	"github.com/SkyChains/evm/core/state"
-	"github.com/SkyChains/evm/core/types"
-	"github.com/SkyChains/evm/params"
-	"github.com/SkyChains/evm/trie"
-	"github.com/SkyChains/evm/vmerrs"
+	"github.com/skychains/chain/utils/timer/mockable"
+	"github.com/skychains/evm/consensus"
+	"github.com/skychains/evm/core/state"
+	"github.com/skychains/evm/core/types"
+	"github.com/skychains/evm/params"
+	"github.com/skychains/evm/trie"
+	"github.com/skychains/evm/vmerrs"
 	"github.com/ethereum/go-ethereum/common"
 )
 

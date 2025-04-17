@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/SkyChains/evm/tests/utils"
+	"github.com/skychains/evm/tests/utils"
 	ginkgo "github.com/onsi/ginkgo/v2"
 )
 

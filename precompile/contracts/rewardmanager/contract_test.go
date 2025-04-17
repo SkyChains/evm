@@ -10,14 +10,14 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/SkyChains/evm/commontype"
-	"github.com/SkyChains/evm/constants"
-	"github.com/SkyChains/evm/core/state"
-	"github.com/SkyChains/evm/precompile/allowlist"
-	"github.com/SkyChains/evm/precompile/contract"
-	"github.com/SkyChains/evm/precompile/precompileconfig"
-	"github.com/SkyChains/evm/precompile/testutils"
-	"github.com/SkyChains/evm/vmerrs"
+	"github.com/skychains/evm/commontype"
+	"github.com/skychains/evm/constants"
+	"github.com/skychains/evm/core/state"
+	"github.com/skychains/evm/precompile/allowlist"
+	"github.com/skychains/evm/precompile/contract"
+	"github.com/skychains/evm/precompile/precompileconfig"
+	"github.com/skychains/evm/precompile/testutils"
+	"github.com/skychains/evm/vmerrs"
 )
 
 var (

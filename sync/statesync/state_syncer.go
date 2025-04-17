@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/SkyChains/evm/core/state/snapshot"
-	"github.com/SkyChains/evm/ethdb"
-	syncclient "github.com/SkyChains/evm/sync/client"
-	"github.com/SkyChains/evm/trie"
+	"github.com/skychains/evm/core/state/snapshot"
+	"github.com/skychains/evm/ethdb"
+	syncclient "github.com/skychains/evm/sync/client"
+	"github.com/skychains/evm/trie"
 	"github.com/ethereum/go-ethereum/common"
 	"golang.org/x/sync/errgroup"
 )

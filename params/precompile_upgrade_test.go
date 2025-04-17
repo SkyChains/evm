@@ -6,9 +6,9 @@ package params
 import (
 	"testing"
 
-	"github.com/SkyChains/evm/precompile/contracts/deployerallowlist"
-	"github.com/SkyChains/evm/precompile/contracts/txallowlist"
-	"github.com/SkyChains/evm/utils"
+	"github.com/skychains/evm/precompile/contracts/deployerallowlist"
+	"github.com/skychains/evm/precompile/contracts/txallowlist"
+	"github.com/skychains/evm/utils"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/stretchr/testify/require"
 )

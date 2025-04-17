@@ -4,8 +4,8 @@
 package syncutils
 
 import (
-	"github.com/SkyChains/evm/core/state/snapshot"
-	"github.com/SkyChains/evm/ethdb"
+	"github.com/skychains/evm/core/state/snapshot"
+	"github.com/skychains/evm/ethdb"
 )
 
 var (

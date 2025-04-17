@@ -32,8 +32,8 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/SkyChains/evm/cmd/evm/internal/t8ntool"
-	"github.com/SkyChains/evm/internal/flags"
+	"github.com/skychains/evm/cmd/evm/internal/t8ntool"
+	"github.com/skychains/evm/internal/flags"
 	"github.com/urfave/cli/v2"
 )
 

@@ -13,9 +13,9 @@ package {{.Package}}
 import (
 	"fmt"
 
-	"github.com/SkyChains/evm/precompile/precompileconfig"
-	"github.com/SkyChains/evm/precompile/contract"
-	"github.com/SkyChains/evm/precompile/modules"
+	"github.com/skychains/evm/precompile/precompileconfig"
+	"github.com/skychains/evm/precompile/contract"
+	"github.com/skychains/evm/precompile/modules"
 
 	"github.com/ethereum/go-ethereum/common"
 )

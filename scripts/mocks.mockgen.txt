@@ -1,2 +1,2 @@
-github.com/SkyChains/evm/precompile/precompileconfig=Predicater,Config,ChainConfig,Accepter=precompile/precompileconfig/mocks.go
-github.com/SkyChains/evm/precompile/contract=BlockContext,AccessibleState=precompile/contract/mocks.go
+github.com/skychains/evm/precompile/precompileconfig=Predicater,Config,ChainConfig,Accepter=precompile/precompileconfig/mocks.go
+github.com/skychains/evm/precompile/contract=BlockContext,AccessibleState=precompile/contract/mocks.go

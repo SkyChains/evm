@@ -32,9 +32,9 @@ import (
 	"path/filepath"
 
 	"github.com/ethereum/go-ethereum/log"
-	"github.com/SkyChains/evm/accounts"
-	"github.com/SkyChains/evm/accounts/external"
-	"github.com/SkyChains/evm/accounts/keystore"
+	"github.com/skychains/evm/accounts"
+	"github.com/skychains/evm/accounts/external"
+	"github.com/skychains/evm/accounts/keystore"
 )
 
 // Config represents a small collection of configuration values to fine tune the

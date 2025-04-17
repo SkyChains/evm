@@ -27,8 +27,8 @@
 package node
 
 import (
-	"github.com/SkyChains/evm/accounts"
-	"github.com/SkyChains/evm/rpc"
+	"github.com/skychains/evm/accounts"
+	"github.com/skychains/evm/rpc"
 )
 
 // Node is a container on which services can be registered.

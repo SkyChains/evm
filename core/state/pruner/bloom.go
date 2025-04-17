@@ -31,7 +31,7 @@ import (
 	"errors"
 	"os"
 
-	"github.com/SkyChains/evm/core/rawdb"
+	"github.com/skychains/evm/core/rawdb"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 	bloomfilter "github.com/holiman/bloomfilter/v2"

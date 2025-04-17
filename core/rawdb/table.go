@@ -27,7 +27,7 @@
 package rawdb
 
 import (
-	"github.com/SkyChains/evm/ethdb"
+	"github.com/skychains/evm/ethdb"
 )
 
 // table is a wrapper around a database that prefixes each key access with a pre-

@@ -6,7 +6,7 @@ package peer
 import (
 	"context"
 
-	"github.com/SkyChains/evm/plugin/evm/message"
+	"github.com/skychains/evm/plugin/evm/message"
 )
 
 var _ message.ResponseHandler = &waitingResponseHandler{}

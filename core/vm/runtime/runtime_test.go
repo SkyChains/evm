@@ -35,19 +35,19 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/asm"
-	"github.com/SkyChains/evm/accounts/abi"
-	"github.com/SkyChains/evm/consensus"
-	"github.com/SkyChains/evm/core"
-	"github.com/SkyChains/evm/core/rawdb"
-	"github.com/SkyChains/evm/core/state"
-	"github.com/SkyChains/evm/core/types"
-	"github.com/SkyChains/evm/core/vm"
-	"github.com/SkyChains/evm/eth/tracers"
-	"github.com/SkyChains/evm/eth/tracers/logger"
-	"github.com/SkyChains/evm/params"
+	"github.com/skychains/evm/accounts/abi"
+	"github.com/skychains/evm/consensus"
+	"github.com/skychains/evm/core"
+	"github.com/skychains/evm/core/rawdb"
+	"github.com/skychains/evm/core/state"
+	"github.com/skychains/evm/core/types"
+	"github.com/skychains/evm/core/vm"
+	"github.com/skychains/evm/eth/tracers"
+	"github.com/skychains/evm/eth/tracers/logger"
+	"github.com/skychains/evm/params"
 
 	// force-load js tracers to trigger registration
-	_ "github.com/SkyChains/evm/eth/tracers/js"
+	_ "github.com/skychains/evm/eth/tracers/js"
 )
 
 func TestDefaults(t *testing.T) {

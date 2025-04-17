@@ -9,9 +9,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/SkyChains/evm/core"
-	"github.com/SkyChains/evm/core/types"
-	"github.com/SkyChains/evm/params"
+	"github.com/skychains/evm/core"
+	"github.com/skychains/evm/core/types"
+	"github.com/skychains/evm/params"
 	"github.com/stretchr/testify/require"
 )
 

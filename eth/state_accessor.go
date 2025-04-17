@@ -32,12 +32,12 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/SkyChains/evm/core"
-	"github.com/SkyChains/evm/core/state"
-	"github.com/SkyChains/evm/core/types"
-	"github.com/SkyChains/evm/core/vm"
-	"github.com/SkyChains/evm/eth/tracers"
-	"github.com/SkyChains/evm/trie"
+	"github.com/skychains/evm/core"
+	"github.com/skychains/evm/core/state"
+	"github.com/skychains/evm/core/types"
+	"github.com/skychains/evm/core/vm"
+	"github.com/skychains/evm/eth/tracers"
+	"github.com/skychains/evm/trie"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 )

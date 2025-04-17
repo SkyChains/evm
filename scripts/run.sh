@@ -20,7 +20,7 @@ source "$SUBNET_EVM_PATH"/scripts/constants.sh
 
 # Set up lux binary path and assume build directory is set
 DATA_DIR=${DATA_DIR:-/tmp/evm-start-node/$(date "+%Y-%m-%d%:%H:%M:%S")}
-LUXD_BUILD_PATH=${LUXD_BUILD_PATH:-"$GOPATH/src/github.com/SkyChains/chain/build"}
+LUXD_BUILD_PATH=${LUXD_BUILD_PATH:-"$GOPATH/src/github.com/skychains/chain/build"}
 LUXD_PATH=${LUXD_PATH:-"$LUXD_BUILD_PATH/node"}
 LUXD_PLUGIN_DIR=${LUXD_PLUGIN_DIR:-"$LUXD_BUILD_PATH/plugins"}
 

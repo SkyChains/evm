@@ -30,8 +30,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/SkyChains/evm/core/rawdb"
-	"github.com/SkyChains/evm/ethdb/memorydb"
+	"github.com/skychains/evm/core/rawdb"
+	"github.com/skychains/evm/ethdb/memorydb"
 	"github.com/ethereum/go-ethereum/common"
 )
 

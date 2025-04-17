@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/SkyChains/chain/codec"
-	"github.com/SkyChains/chain/codec/linearcodec"
-	"github.com/SkyChains/chain/utils/units"
-	"github.com/SkyChains/chain/utils/wrappers"
+	"github.com/skychains/chain/codec"
+	"github.com/skychains/chain/codec/linearcodec"
+	"github.com/skychains/chain/utils/units"
+	"github.com/skychains/chain/utils/wrappers"
 	"github.com/ethereum/go-ethereum/common"
 )
 

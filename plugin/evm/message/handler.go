@@ -8,7 +8,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/SkyChains/chain/ids"
+	"github.com/skychains/chain/ids"
 )
 
 var (

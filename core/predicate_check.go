@@ -7,11 +7,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/SkyChains/chain/utils/set"
-	"github.com/SkyChains/evm/core/types"
-	"github.com/SkyChains/evm/params"
-	"github.com/SkyChains/evm/precompile/precompileconfig"
-	"github.com/SkyChains/evm/predicate"
+	"github.com/skychains/chain/utils/set"
+	"github.com/skychains/evm/core/types"
+	"github.com/skychains/evm/params"
+	"github.com/skychains/evm/precompile/precompileconfig"
+	"github.com/skychains/evm/predicate"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 )

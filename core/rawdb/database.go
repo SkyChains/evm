@@ -34,9 +34,9 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/SkyChains/evm/ethdb"
-	"github.com/SkyChains/evm/ethdb/leveldb"
-	"github.com/SkyChains/evm/ethdb/memorydb"
+	"github.com/skychains/evm/ethdb"
+	"github.com/skychains/evm/ethdb/leveldb"
+	"github.com/skychains/evm/ethdb/memorydb"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/olekukonko/tablewriter"

@@ -29,7 +29,7 @@ package vm
 import (
 	"fmt"
 
-	"github.com/SkyChains/evm/params"
+	"github.com/skychains/evm/params"
 )
 
 type (

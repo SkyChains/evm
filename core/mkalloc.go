@@ -43,7 +43,7 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/SkyChains/evm/core"
+	"github.com/skychains/evm/core"
 	"github.com/ethereum/go-ethereum/rlp"
 )
 

@@ -7,13 +7,13 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/SkyChains/evm/params"
+	"github.com/skychains/evm/params"
 
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/SkyChains/chain/utils/crypto/bls"
-	"github.com/SkyChains/chain/utils/set"
-	luxWarp "github.com/SkyChains/chain/vms/platformvm/warp"
+	"github.com/skychains/chain/utils/crypto/bls"
+	"github.com/skychains/chain/utils/set"
+	luxWarp "github.com/skychains/chain/vms/platformvm/warp"
 )
 
 type AggregateSignatureResult struct {

@@ -7,12 +7,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/SkyChains/chain/vms/platformvm/warp"
-	"github.com/SkyChains/chain/vms/platformvm/warp/payload"
-	"github.com/SkyChains/evm/accounts/abi"
-	"github.com/SkyChains/evm/params"
-	"github.com/SkyChains/evm/precompile/contract"
-	"github.com/SkyChains/evm/vmerrs"
+	"github.com/skychains/chain/vms/platformvm/warp"
+	"github.com/skychains/chain/vms/platformvm/warp/payload"
+	"github.com/skychains/evm/accounts/abi"
+	"github.com/skychains/evm/params"
+	"github.com/skychains/evm/precompile/contract"
+	"github.com/skychains/evm/vmerrs"
 
 	_ "embed"
 

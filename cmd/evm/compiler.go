@@ -31,7 +31,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/SkyChains/evm/cmd/evm/internal/compiler"
+	"github.com/skychains/evm/cmd/evm/internal/compiler"
 	"github.com/urfave/cli/v2"
 )
 

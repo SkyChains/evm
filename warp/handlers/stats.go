@@ -6,7 +6,7 @@ package handlers
 import (
 	"time"
 
-	"github.com/SkyChains/evm/metrics"
+	"github.com/skychains/evm/metrics"
 )
 
 type handlerStats struct {

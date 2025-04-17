@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/SkyChains/evm/precompile/contract"
+	"github.com/skychains/evm/precompile/contract"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/stretchr/testify/require"

@@ -2,7 +2,7 @@
 // See the file LICENSE for licensing terms.
 package precompilebind
 
-import "github.com/SkyChains/evm/accounts/abi/bind"
+import "github.com/skychains/evm/accounts/abi/bind"
 
 // tmplPrecompileData is the data structure required to fill the binding template.
 type tmplPrecompileData struct {
@@ -32,12 +32,12 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/SkyChains/evm/accounts/abi"
+	"github.com/skychains/evm/accounts/abi"
 	{{- if .Contract.AllowList}}
-	"github.com/SkyChains/evm/precompile/allowlist"
+	"github.com/skychains/evm/precompile/allowlist"
 	{{- end}}
-	"github.com/SkyChains/evm/precompile/contract"
-	"github.com/SkyChains/evm/vmerrs"
+	"github.com/skychains/evm/precompile/contract"
+	"github.com/skychains/evm/vmerrs"
 
 	_ "embed"
 

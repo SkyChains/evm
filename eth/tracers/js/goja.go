@@ -34,9 +34,9 @@ import (
 
 	"github.com/dop251/goja"
 
-	"github.com/SkyChains/evm/core/vm"
-	"github.com/SkyChains/evm/eth/tracers"
-	jsassets "github.com/SkyChains/evm/eth/tracers/js/internal/tracers"
+	"github.com/skychains/evm/core/vm"
+	"github.com/skychains/evm/eth/tracers"
+	jsassets "github.com/skychains/evm/eth/tracers/js/internal/tracers"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/crypto"

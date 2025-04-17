@@ -29,11 +29,11 @@ package core
 import (
 	"sync/atomic"
 
-	"github.com/SkyChains/evm/consensus"
-	"github.com/SkyChains/evm/core/state"
-	"github.com/SkyChains/evm/core/types"
-	"github.com/SkyChains/evm/core/vm"
-	"github.com/SkyChains/evm/params"
+	"github.com/skychains/evm/consensus"
+	"github.com/skychains/evm/core/state"
+	"github.com/skychains/evm/core/types"
+	"github.com/skychains/evm/core/vm"
+	"github.com/skychains/evm/params"
 )
 
 // statePrefetcher is a basic Prefetcher, which blindly executes a block on top

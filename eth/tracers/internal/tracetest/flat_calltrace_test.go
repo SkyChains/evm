@@ -19,17 +19,17 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/SkyChains/evm/core"
-	"github.com/SkyChains/evm/core/rawdb"
-	"github.com/SkyChains/evm/core/types"
-	"github.com/SkyChains/evm/core/vm"
-	"github.com/SkyChains/evm/tests"
+	"github.com/skychains/evm/core"
+	"github.com/skychains/evm/core/rawdb"
+	"github.com/skychains/evm/core/types"
+	"github.com/skychains/evm/core/vm"
+	"github.com/skychains/evm/tests"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/rlp"
 
 	// Force-load the native, to trigger registration
-	"github.com/SkyChains/evm/eth/tracers"
+	"github.com/skychains/evm/eth/tracers"
 )
 
 // flatCallTrace is the result of a callTracerParity run.

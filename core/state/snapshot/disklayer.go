@@ -31,10 +31,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/SkyChains/evm/core/rawdb"
-	"github.com/SkyChains/evm/ethdb"
-	"github.com/SkyChains/evm/trie"
-	"github.com/SkyChains/evm/utils"
+	"github.com/skychains/evm/core/rawdb"
+	"github.com/skychains/evm/ethdb"
+	"github.com/skychains/evm/trie"
+	"github.com/skychains/evm/utils"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/rlp"
 )

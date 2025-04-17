@@ -40,7 +40,7 @@ import (
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/SkyChains/evm/core/types"
+	"github.com/skychains/evm/core/types"
 	"github.com/urfave/cli/v2"
 )
 

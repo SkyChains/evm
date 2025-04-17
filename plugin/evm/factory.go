@@ -4,9 +4,9 @@
 package evm
 
 import (
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/logging"
-	"github.com/SkyChains/chain/vms"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/logging"
+	"github.com/skychains/chain/vms"
 )
 
 var (

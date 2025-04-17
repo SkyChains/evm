@@ -31,8 +31,8 @@ import (
 	"math/big"
 	"sort"
 
-	"github.com/SkyChains/evm/params"
-	"github.com/SkyChains/evm/utils"
+	"github.com/skychains/evm/params"
+	"github.com/skychains/evm/utils"
 )
 
 // Forks table defines supported forks and their chain config.

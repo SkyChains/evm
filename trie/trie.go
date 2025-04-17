@@ -32,8 +32,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/SkyChains/evm/core/types"
-	"github.com/SkyChains/evm/trie/trienode"
+	"github.com/skychains/evm/core/types"
+	"github.com/skychains/evm/trie/trienode"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 )

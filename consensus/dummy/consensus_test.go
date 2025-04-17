@@ -8,8 +8,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/SkyChains/evm/core/types"
-	"github.com/SkyChains/evm/params"
+	"github.com/skychains/evm/core/types"
+	"github.com/skychains/evm/params"
 	"github.com/ethereum/go-ethereum/common"
 )
 

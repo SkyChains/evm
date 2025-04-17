@@ -8,11 +8,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/SkyChains/chain/utils/logging"
-	"github.com/SkyChains/chain/utils/ulimit"
-	"github.com/SkyChains/chain/vms/rpcchainvm"
+	"github.com/skychains/chain/utils/logging"
+	"github.com/skychains/chain/utils/ulimit"
+	"github.com/skychains/chain/vms/rpcchainvm"
 
-	"github.com/SkyChains/evm/plugin/evm"
+	"github.com/skychains/evm/plugin/evm"
 )
 
 func Run(versionStr string) {

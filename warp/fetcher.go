@@ -7,11 +7,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/crypto/bls"
-	luxWarp "github.com/SkyChains/chain/vms/platformvm/warp"
-	"github.com/SkyChains/chain/vms/platformvm/warp/payload"
-	"github.com/SkyChains/evm/warp/aggregator"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/crypto/bls"
+	luxWarp "github.com/skychains/chain/vms/platformvm/warp"
+	"github.com/skychains/chain/vms/platformvm/warp/payload"
+	"github.com/skychains/evm/warp/aggregator"
 )
 
 var _ aggregator.SignatureGetter = (*apiFetcher)(nil)

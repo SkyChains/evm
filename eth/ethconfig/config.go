@@ -29,10 +29,10 @@ package ethconfig
 import (
 	"time"
 
-	"github.com/SkyChains/evm/core"
-	"github.com/SkyChains/evm/core/txpool"
-	"github.com/SkyChains/evm/eth/gasprice"
-	"github.com/SkyChains/evm/miner"
+	"github.com/skychains/evm/core"
+	"github.com/skychains/evm/core/txpool"
+	"github.com/skychains/evm/eth/gasprice"
+	"github.com/skychains/evm/miner"
 	"github.com/ethereum/go-ethereum/common"
 )
 

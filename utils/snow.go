@@ -4,11 +4,11 @@
 package utils
 
 import (
-	"github.com/SkyChains/chain/api/metrics"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow"
-	"github.com/SkyChains/chain/utils/crypto/bls"
-	"github.com/SkyChains/chain/utils/logging"
+	"github.com/skychains/chain/api/metrics"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow"
+	"github.com/skychains/chain/utils/crypto/bls"
+	"github.com/skychains/chain/utils/logging"
 )
 
 func TestSnowContext() *snow.Context {

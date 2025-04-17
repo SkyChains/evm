@@ -33,12 +33,12 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 	cmath "github.com/ethereum/go-ethereum/common/math"
-	"github.com/SkyChains/evm/core/types"
-	"github.com/SkyChains/evm/core/vm"
-	"github.com/SkyChains/evm/params"
-	"github.com/SkyChains/evm/precompile/contracts/txallowlist"
-	"github.com/SkyChains/evm/utils"
-	"github.com/SkyChains/evm/vmerrs"
+	"github.com/skychains/evm/core/types"
+	"github.com/skychains/evm/core/vm"
+	"github.com/skychains/evm/params"
+	"github.com/skychains/evm/precompile/contracts/txallowlist"
+	"github.com/skychains/evm/utils"
+	"github.com/skychains/evm/vmerrs"
 )
 
 // ExecutionResult includes all output after executing given evm

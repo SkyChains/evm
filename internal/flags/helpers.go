@@ -30,8 +30,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/SkyChains/evm/internal/version"
-	"github.com/SkyChains/evm/params"
+	"github.com/skychains/evm/internal/version"
+	"github.com/skychains/evm/params"
 	"github.com/urfave/cli/v2"
 )
 

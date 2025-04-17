@@ -32,7 +32,7 @@ package core
 import (
 	"testing"
 
-	"github.com/SkyChains/evm/core/types"
+	"github.com/skychains/evm/core/types"
 )
 
 // verifyNoGaps checks that there are no gaps after the initial set of blocks in

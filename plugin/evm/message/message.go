@@ -7,10 +7,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/SkyChains/chain/codec"
+	"github.com/skychains/chain/codec"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/units"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/units"
 )
 
 const (

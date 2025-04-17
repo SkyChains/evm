@@ -34,7 +34,7 @@ guidelines:
 - Code must be documented adhering to the official Go
   [commentary](https://go.dev/doc/effective_go#commentary) guidelines.
 - Changes with user facing impact (e.g., addition or modification of flags and
- options) should be accompanied by a link to a pull request to the [Lux docs](https://github.com/SkyChains/docs)
+ options) should be accompanied by a link to a pull request to the [Lux docs](https://github.com/skychains/docs)
  repository.
 - Changes that modify a package significantly or add new features should
  either update the existing or include a new `README.md` file in that package.

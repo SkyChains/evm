@@ -7,8 +7,8 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/SkyChains/chain/utils/formatting"
-	"github.com/SkyChains/evm/core"
+	"github.com/skychains/chain/utils/formatting"
+	"github.com/skychains/evm/core"
 	"github.com/ethereum/go-ethereum/common"
 )
 

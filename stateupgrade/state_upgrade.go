@@ -6,7 +6,7 @@ package stateupgrade
 import (
 	"math/big"
 
-	"github.com/SkyChains/evm/params"
+	"github.com/skychains/evm/params"
 	"github.com/ethereum/go-ethereum/common"
 )
 

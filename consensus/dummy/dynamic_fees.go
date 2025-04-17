@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/SkyChains/chain/utils/wrappers"
-	"github.com/SkyChains/evm/commontype"
-	"github.com/SkyChains/evm/core/types"
-	"github.com/SkyChains/evm/params"
+	"github.com/skychains/chain/utils/wrappers"
+	"github.com/skychains/evm/commontype"
+	"github.com/skychains/evm/core/types"
+	"github.com/skychains/evm/params"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/math"
 )

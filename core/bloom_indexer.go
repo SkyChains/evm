@@ -20,10 +20,10 @@ import (
 	"context"
 	"time"
 
-	"github.com/SkyChains/evm/core/bloombits"
-	"github.com/SkyChains/evm/core/rawdb"
-	"github.com/SkyChains/evm/core/types"
-	"github.com/SkyChains/evm/ethdb"
+	"github.com/skychains/evm/core/bloombits"
+	"github.com/skychains/evm/core/rawdb"
+	"github.com/skychains/evm/core/types"
+	"github.com/skychains/evm/ethdb"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/bitutil"
 )

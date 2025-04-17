@@ -29,8 +29,8 @@ package leveldb
 import (
 	"testing"
 
-	"github.com/SkyChains/evm/ethdb"
-	"github.com/SkyChains/evm/ethdb/dbtest"
+	"github.com/skychains/evm/ethdb"
+	"github.com/skychains/evm/ethdb/dbtest"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/storage"
 )

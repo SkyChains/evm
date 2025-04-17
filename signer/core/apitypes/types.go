@@ -32,7 +32,7 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/SkyChains/evm/core/types"
+	"github.com/skychains/evm/core/types"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 )

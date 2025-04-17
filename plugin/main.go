@@ -6,9 +6,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/SkyChains/chain/version"
-	"github.com/SkyChains/evm/plugin/evm"
-	"github.com/SkyChains/evm/plugin/runner"
+	"github.com/skychains/chain/version"
+	"github.com/skychains/evm/plugin/evm"
+	"github.com/skychains/evm/plugin/runner"
 )
 
 func main() {

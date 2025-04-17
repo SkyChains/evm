@@ -13,17 +13,17 @@ import (
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/rlp"
 
-	"github.com/SkyChains/evm/core"
-	"github.com/SkyChains/evm/core/rawdb"
-	"github.com/SkyChains/evm/core/types"
-	"github.com/SkyChains/evm/params"
-	"github.com/SkyChains/evm/precompile/precompileconfig"
-	"github.com/SkyChains/evm/predicate"
+	"github.com/skychains/evm/core"
+	"github.com/skychains/evm/core/rawdb"
+	"github.com/skychains/evm/core/types"
+	"github.com/skychains/evm/params"
+	"github.com/skychains/evm/precompile/precompileconfig"
+	"github.com/skychains/evm/predicate"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow/choices"
-	"github.com/SkyChains/chain/snow/consensus/snowman"
-	"github.com/SkyChains/chain/snow/engine/snowman/block"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow/choices"
+	"github.com/skychains/chain/snow/consensus/snowman"
+	"github.com/skychains/chain/snow/engine/snowman/block"
 )
 
 var (

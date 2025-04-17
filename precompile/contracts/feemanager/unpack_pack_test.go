@@ -8,9 +8,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/SkyChains/evm/accounts/abi"
-	"github.com/SkyChains/evm/commontype"
-	"github.com/SkyChains/evm/precompile/contract"
+	"github.com/skychains/evm/accounts/abi"
+	"github.com/skychains/evm/commontype"
+	"github.com/skychains/evm/precompile/contract"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/math"
 	"github.com/stretchr/testify/require"

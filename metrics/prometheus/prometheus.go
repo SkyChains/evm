@@ -7,7 +7,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/SkyChains/evm/metrics"
+	"github.com/skychains/evm/metrics"
 
 	"github.com/prometheus/client_golang/prometheus"
 

@@ -6,7 +6,7 @@ package message
 import (
 	"testing"
 
-	"github.com/SkyChains/chain/ids"
+	"github.com/skychains/chain/ids"
 
 	"github.com/stretchr/testify/assert"
 )

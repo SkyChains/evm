@@ -34,10 +34,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/SkyChains/evm/core/state"
-	"github.com/SkyChains/evm/core/vm"
-	"github.com/SkyChains/evm/eth/tracers"
-	"github.com/SkyChains/evm/params"
+	"github.com/skychains/evm/core/state"
+	"github.com/skychains/evm/core/vm"
+	"github.com/skychains/evm/eth/tracers"
+	"github.com/skychains/evm/params"
 	"github.com/ethereum/go-ethereum/common"
 )
 

@@ -8,14 +8,14 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/SkyChains/chain/ids"
+	"github.com/skychains/chain/ids"
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/SkyChains/chain/network/p2p/gossip"
+	"github.com/skychains/chain/network/p2p/gossip"
 
-	"github.com/SkyChains/evm/core"
-	"github.com/SkyChains/evm/core/txpool"
-	"github.com/SkyChains/evm/core/types"
+	"github.com/skychains/evm/core"
+	"github.com/skychains/evm/core/txpool"
+	"github.com/skychains/evm/core/types"
 )
 
 var (

@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/SkyChains/chain/api/health"
+	"github.com/skychains/chain/api/health"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/go-cmd/cmd"
 	"github.com/onsi/ginkgo/v2"

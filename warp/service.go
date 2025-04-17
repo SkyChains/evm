@@ -8,12 +8,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/vms/platformvm/warp"
-	"github.com/SkyChains/chain/vms/platformvm/warp/payload"
-	"github.com/SkyChains/evm/peer"
-	"github.com/SkyChains/evm/warp/aggregator"
-	"github.com/SkyChains/evm/warp/validators"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/vms/platformvm/warp"
+	"github.com/skychains/chain/vms/platformvm/warp/payload"
+	"github.com/skychains/evm/peer"
+	"github.com/skychains/evm/warp/aggregator"
+	"github.com/skychains/evm/warp/validators"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/log"
 )

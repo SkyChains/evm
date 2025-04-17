@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/SkyChains/evm/params"
-	"github.com/SkyChains/evm/precompile/precompileconfig"
-	"github.com/SkyChains/evm/precompile/testutils"
-	"github.com/SkyChains/evm/utils"
+	"github.com/skychains/evm/params"
+	"github.com/skychains/evm/precompile/precompileconfig"
+	"github.com/skychains/evm/precompile/testutils"
+	"github.com/skychains/evm/utils"
 	"go.uber.org/mock/gomock"
 )
 

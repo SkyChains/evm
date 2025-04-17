@@ -11,24 +11,24 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/SkyChains/chain/ids"
+	"github.com/skychains/chain/ids"
 
-	"github.com/SkyChains/evm/ethdb/memorydb"
-	"github.com/SkyChains/evm/params"
-	"github.com/SkyChains/evm/sync/client/stats"
+	"github.com/skychains/evm/ethdb/memorydb"
+	"github.com/skychains/evm/params"
+	"github.com/skychains/evm/sync/client/stats"
 
-	"github.com/SkyChains/chain/codec"
-	"github.com/SkyChains/chain/version"
+	"github.com/skychains/chain/codec"
+	"github.com/skychains/chain/version"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/SkyChains/evm/core/types"
-	"github.com/SkyChains/evm/ethdb"
-	"github.com/SkyChains/evm/peer"
-	"github.com/SkyChains/evm/plugin/evm/message"
-	"github.com/SkyChains/evm/trie"
+	"github.com/skychains/evm/core/types"
+	"github.com/skychains/evm/ethdb"
+	"github.com/skychains/evm/peer"
+	"github.com/skychains/evm/plugin/evm/message"
+	"github.com/skychains/evm/trie"
 )
 
 const (

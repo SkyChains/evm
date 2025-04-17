@@ -12,9 +12,9 @@ import (
 
 	"go.uber.org/mock/gomock"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/crypto/bls"
-	luxWarp "github.com/SkyChains/chain/vms/platformvm/warp"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/crypto/bls"
+	luxWarp "github.com/skychains/chain/vms/platformvm/warp"
 )
 
 func newValidator(t testing.TB, weight uint64) (*bls.SecretKey, *luxWarp.Validator) {

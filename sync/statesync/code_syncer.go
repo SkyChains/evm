@@ -9,12 +9,12 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/set"
-	"github.com/SkyChains/evm/core/rawdb"
-	"github.com/SkyChains/evm/ethdb"
-	"github.com/SkyChains/evm/plugin/evm/message"
-	statesyncclient "github.com/SkyChains/evm/sync/client"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/set"
+	"github.com/skychains/evm/core/rawdb"
+	"github.com/skychains/evm/ethdb"
+	"github.com/skychains/evm/plugin/evm/message"
+	statesyncclient "github.com/skychains/evm/sync/client"
 
 	"github.com/ethereum/go-ethereum/common"
 )

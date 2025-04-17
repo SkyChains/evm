@@ -37,12 +37,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/SkyChains/evm/accounts/abi"
-	"github.com/SkyChains/evm/accounts/abi/bind"
-	"github.com/SkyChains/evm/core"
-	"github.com/SkyChains/evm/core/types"
-	"github.com/SkyChains/evm/interfaces"
-	"github.com/SkyChains/evm/params"
+	"github.com/skychains/evm/accounts/abi"
+	"github.com/skychains/evm/accounts/abi/bind"
+	"github.com/skychains/evm/core"
+	"github.com/skychains/evm/core/types"
+	"github.com/skychains/evm/interfaces"
+	"github.com/skychains/evm/params"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 )

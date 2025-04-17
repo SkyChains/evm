@@ -10,8 +10,8 @@ import (
 	"math/big"
 
 
-	"github.com/SkyChains/evm/precompile/contract"
-	"github.com/SkyChains/evm/vmerrs"
+	"github.com/skychains/evm/precompile/contract"
+	"github.com/skychains/evm/vmerrs"
 	"github.com/ethereum/go-ethereum/common"
 )
 

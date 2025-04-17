@@ -19,8 +19,8 @@
 package rawdb
 
 import (
-	"github.com/SkyChains/evm/ethdb"
-	"github.com/SkyChains/evm/ethdb/pebble"
+	"github.com/skychains/evm/ethdb"
+	"github.com/skychains/evm/ethdb/pebble"
 )
 
 // Pebble is unsuported on 32bit architecture

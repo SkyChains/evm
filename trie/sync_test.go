@@ -29,10 +29,10 @@ package trie
 import (
 	"fmt"
 
-	"github.com/SkyChains/evm/core/rawdb"
-	"github.com/SkyChains/evm/core/types"
-	"github.com/SkyChains/evm/ethdb"
-	"github.com/SkyChains/evm/trie/trienode"
+	"github.com/skychains/evm/core/rawdb"
+	"github.com/skychains/evm/core/types"
+	"github.com/skychains/evm/ethdb"
+	"github.com/skychains/evm/trie/trienode"
 	"github.com/ethereum/go-ethereum/common"
 )
 

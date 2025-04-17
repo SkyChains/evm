@@ -35,9 +35,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/SkyChains/evm/accounts/abi"
-	"github.com/SkyChains/evm/accounts/abi/bind"
-	"github.com/SkyChains/evm/precompile/allowlist"
+	"github.com/skychains/evm/accounts/abi"
+	"github.com/skychains/evm/accounts/abi/bind"
+	"github.com/skychains/evm/precompile/allowlist"
 )
 
 var errNoAnonymousEvent = errors.New("event type must not be anonymous")

@@ -17,7 +17,7 @@
 package trie
 
 import (
-	"github.com/SkyChains/evm/trie/trienode"
+	"github.com/skychains/evm/trie/trienode"
 	"github.com/ethereum/go-ethereum/common"
 )
 

@@ -8,23 +8,23 @@ import (
 	"sync"
 	"time"
 
-	"github.com/SkyChains/chain/codec"
+	"github.com/skychains/chain/codec"
 
-	"github.com/SkyChains/evm/peer"
+	"github.com/skychains/evm/peer"
 
-	"github.com/SkyChains/chain/cache"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow"
+	"github.com/skychains/chain/cache"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/rlp"
 
-	"github.com/SkyChains/evm/core"
-	"github.com/SkyChains/evm/core/state"
-	"github.com/SkyChains/evm/core/txpool"
-	"github.com/SkyChains/evm/core/types"
-	"github.com/SkyChains/evm/plugin/evm/message"
+	"github.com/skychains/evm/core"
+	"github.com/skychains/evm/core/state"
+	"github.com/skychains/evm/core/txpool"
+	"github.com/skychains/evm/core/types"
+	"github.com/skychains/evm/plugin/evm/message"
 )
 
 const (

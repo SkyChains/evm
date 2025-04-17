@@ -31,7 +31,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/SkyChains/evm/core/rawdb"
+	"github.com/skychains/evm/core/rawdb"
 )
 
 // Tests that the node iterator indeed walks over the entire database contents.

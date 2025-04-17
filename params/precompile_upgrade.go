@@ -9,9 +9,9 @@ import (
 	"fmt"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/SkyChains/evm/precompile/modules"
-	"github.com/SkyChains/evm/precompile/precompileconfig"
-	"github.com/SkyChains/evm/utils"
+	"github.com/skychains/evm/precompile/modules"
+	"github.com/skychains/evm/precompile/precompileconfig"
+	"github.com/skychains/evm/utils"
 )
 
 var errNoKey = errors.New("PrecompileUpgrade cannot be empty")

@@ -10,9 +10,9 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 
-	"github.com/SkyChains/evm/core/types"
-	"github.com/SkyChains/evm/params"
-	"github.com/SkyChains/evm/trie"
+	"github.com/skychains/evm/core/types"
+	"github.com/skychains/evm/params"
+	"github.com/skychains/evm/trie"
 )
 
 var legacyMinGasPrice = big.NewInt(params.MinGasPrice)

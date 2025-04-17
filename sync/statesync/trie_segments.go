@@ -10,12 +10,12 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/SkyChains/chain/utils/wrappers"
-	"github.com/SkyChains/evm/core/rawdb"
-	"github.com/SkyChains/evm/ethdb"
-	syncclient "github.com/SkyChains/evm/sync/client"
-	"github.com/SkyChains/evm/trie"
-	"github.com/SkyChains/evm/utils"
+	"github.com/skychains/chain/utils/wrappers"
+	"github.com/skychains/evm/core/rawdb"
+	"github.com/skychains/evm/ethdb"
+	syncclient "github.com/skychains/evm/sync/client"
+	"github.com/skychains/evm/trie"
+	"github.com/skychains/evm/utils"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 )

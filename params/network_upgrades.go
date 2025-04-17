@@ -4,7 +4,7 @@
 package params
 
 import (
-	"github.com/SkyChains/evm/utils"
+	"github.com/skychains/evm/utils"
 )
 
 var (

@@ -8,16 +8,16 @@ import (
 	"math"
 	"testing"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow/validators"
-	"github.com/SkyChains/chain/utils/crypto/bls"
-	"github.com/SkyChains/chain/utils/set"
-	luxWarp "github.com/SkyChains/chain/vms/platformvm/warp"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow/validators"
+	"github.com/skychains/chain/utils/crypto/bls"
+	"github.com/skychains/chain/utils/set"
+	luxWarp "github.com/skychains/chain/vms/platformvm/warp"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 )
 
-// This test copies the test coverage from https://github.com/SkyChains/chain/blob/v1.10.0/vms/platformvm/warp/signature_test.go#L137.
+// This test copies the test coverage from https://github.com/skychains/chain/blob/v1.10.0/vms/platformvm/warp/signature_test.go#L137.
 // These tests are only expected to fail if there is a breaking change in Luxd that unexpectedly changes behavior.
 func TestSignatureVerification(t *testing.T) {
 	tests = []signatureTest{

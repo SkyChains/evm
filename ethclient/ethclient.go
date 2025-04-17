@@ -34,11 +34,11 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/evm/accounts/abi/bind"
-	"github.com/SkyChains/evm/core/types"
-	"github.com/SkyChains/evm/interfaces"
-	"github.com/SkyChains/evm/rpc"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/evm/accounts/abi/bind"
+	"github.com/skychains/evm/core/types"
+	"github.com/skychains/evm/interfaces"
+	"github.com/skychains/evm/rpc"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 )

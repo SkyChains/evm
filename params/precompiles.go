@@ -6,8 +6,8 @@ package params
 import (
 	"encoding/json"
 
-	"github.com/SkyChains/evm/precompile/modules"
-	"github.com/SkyChains/evm/precompile/precompileconfig"
+	"github.com/skychains/evm/precompile/modules"
+	"github.com/skychains/evm/precompile/precompileconfig"
 )
 
 type Precompiles map[string]precompileconfig.Config

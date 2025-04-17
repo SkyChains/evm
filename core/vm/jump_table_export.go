@@ -17,7 +17,7 @@
 package vm
 
 import (
-	"github.com/SkyChains/evm/params"
+	"github.com/skychains/evm/params"
 )
 
 // LookupInstructionSet returns the instructionset for the fork configured by

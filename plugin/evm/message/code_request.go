@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/SkyChains/chain/ids"
+	"github.com/skychains/chain/ids"
 	"github.com/ethereum/go-ethereum/common"
 )
 

@@ -6,8 +6,8 @@ package txallowlist
 import (
 	"testing"
 
-	"github.com/SkyChains/evm/core/state"
-	"github.com/SkyChains/evm/precompile/allowlist"
+	"github.com/skychains/evm/core/state"
+	"github.com/skychains/evm/precompile/allowlist"
 )
 
 func TestTxAllowListRun(t *testing.T) {

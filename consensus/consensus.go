@@ -30,10 +30,10 @@ package consensus
 import (
 	"math/big"
 
-	"github.com/SkyChains/evm/commontype"
-	"github.com/SkyChains/evm/core/state"
-	"github.com/SkyChains/evm/core/types"
-	"github.com/SkyChains/evm/params"
+	"github.com/skychains/evm/commontype"
+	"github.com/skychains/evm/core/state"
+	"github.com/skychains/evm/core/types"
+	"github.com/skychains/evm/params"
 	"github.com/ethereum/go-ethereum/common"
 )
 

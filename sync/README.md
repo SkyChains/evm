@@ -47,7 +47,7 @@ The above information is called a _state summary_, and each syncable block corre
 
 1. The engine calls `StateSyncEnabled`. The VM returns `true` to initiate state sync, or `false` to start  bootstrapping. In `evm`, this is controlled by the `state-sync-enabled` flag.
 2. The engine calls `GetOngoingSyncStateSummary`. If the VM has a previously interrupted sync to resume it returns that summary. Otherwise, it returns `ErrNotFound`.  By default, `evm` will resume an interrupted sync.
-3. The engine samples peers for their latest available summaries, then verifies the correctness and availability of each sampled summary with validators. The messaging flow is documented [here](https://github.com/SkyChains/chain/blob/master/snow/engine/snowman/block/README.md).
+3. The engine samples peers for their latest available summaries, then verifies the correctness and availability of each sampled summary with validators. The messaging flow is documented [here](https://github.com/skychains/chain/blob/master/snow/engine/snowman/block/README.md).
 4. The engine calls `Accept` on the chosen summary. The VM may return `false` to skip syncing to this summary (`evm` skips state sync for less than `defaultStateSyncMinBlocks = 300_000` blocks). If the VM decides to perform the sync, it must return `true` without blocking and fetch the state from its peers asynchronously.
 5. The VM sends `common.StateSyncDone` on the `toEngine` channel on completion.
 6. The engine calls `VM.SetState(Bootstrapping)`. Then, blocks after the syncable block are processed one by one.

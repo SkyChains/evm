@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/SkyChains/evm/cmd/simulator/metrics"
+	"github.com/skychains/evm/cmd/simulator/metrics"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 )

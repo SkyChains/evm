@@ -32,9 +32,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/SkyChains/evm/core/bloombits"
-	"github.com/SkyChains/evm/core/types"
-	"github.com/SkyChains/evm/rpc"
+	"github.com/skychains/evm/core/bloombits"
+	"github.com/skychains/evm/core/types"
+	"github.com/skychains/evm/rpc"
 	"github.com/ethereum/go-ethereum/common"
 )
 

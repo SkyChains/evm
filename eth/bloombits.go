@@ -29,7 +29,7 @@ package eth
 import (
 	"time"
 
-	"github.com/SkyChains/evm/core/rawdb"
+	"github.com/skychains/evm/core/rawdb"
 	"github.com/ethereum/go-ethereum/common/bitutil"
 )
 

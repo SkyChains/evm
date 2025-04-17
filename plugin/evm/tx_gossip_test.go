@@ -10,21 +10,21 @@ import (
 	"testing"
 	"time"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/network/p2p"
-	"github.com/SkyChains/chain/network/p2p/gossip"
-	"github.com/SkyChains/chain/proto/pb/sdk"
-	"github.com/SkyChains/chain/snow/engine/common"
-	"github.com/SkyChains/chain/snow/validators"
-	"github.com/SkyChains/chain/utils"
-	"github.com/SkyChains/chain/utils/logging"
-	"github.com/SkyChains/chain/utils/set"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/network/p2p"
+	"github.com/skychains/chain/network/p2p/gossip"
+	"github.com/skychains/chain/proto/pb/sdk"
+	"github.com/skychains/chain/snow/engine/common"
+	"github.com/skychains/chain/snow/validators"
+	"github.com/skychains/chain/utils"
+	"github.com/skychains/chain/utils/logging"
+	"github.com/skychains/chain/utils/set"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/stretchr/testify/require"
 
 	"google.golang.org/protobuf/proto"
 
-	"github.com/SkyChains/evm/core/types"
+	"github.com/skychains/evm/core/types"
 )
 
 func TestTxGossip(t *testing.T) {

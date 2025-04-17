@@ -1,4 +1,4 @@
-// Source: github.com/SkyChains/evm/precompile/precompileconfig (interfaces: Predicater,Config,ChainConfig,Accepter)
+// Source: github.com/skychains/evm/precompile/precompileconfig (interfaces: Predicater,Config,ChainConfig,Accepter)
 
 // Package precompileconfig is a generated GoMock package.
 package precompileconfig
@@ -6,7 +6,7 @@ package precompileconfig
 import (
 	reflect "reflect"
 
-	commontype "github.com/SkyChains/evm/commontype"
+	commontype "github.com/skychains/evm/commontype"
 	common "github.com/ethereum/go-ethereum/common"
 	gomock "go.uber.org/mock/gomock"
 )

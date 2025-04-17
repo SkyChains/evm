@@ -11,9 +11,9 @@ const tmplSourcePrecompileConfigGo = `
 package {{.Package}}
 
 import (
-	"github.com/SkyChains/evm/precompile/precompileconfig"
+	"github.com/skychains/evm/precompile/precompileconfig"
 	{{- if .Contract.AllowList}}
-	"github.com/SkyChains/evm/precompile/allowlist"
+	"github.com/skychains/evm/precompile/allowlist"
 
 	"github.com/ethereum/go-ethereum/common"
 	{{- end}}

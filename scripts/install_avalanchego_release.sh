@@ -13,7 +13,7 @@ source "$SUBNET_EVM_PATH"/scripts/constants.sh
 
 ############################
 # download node
-# https://github.com/SkyChains/chain/releases
+# https://github.com/skychains/chain/releases
 GOARCH=$(go env GOARCH)
 GOOS=$(go env GOOS)
 BASEDIR=${BASEDIR:-"/tmp/node-release"}
@@ -21,11 +21,11 @@ LUXD_BUILD_PATH=${LUXD_BUILD_PATH:-${BASEDIR}/node}
 
 mkdir -p ${BASEDIR}
 
-AVAGO_DOWNLOAD_URL=https://github.com/SkyChains/chain/releases/download/${LUX_VERSION}/node-linux-${GOARCH}-${LUX_VERSION}.tar.gz
+AVAGO_DOWNLOAD_URL=https://github.com/skychains/chain/releases/download/${LUX_VERSION}/node-linux-${GOARCH}-${LUX_VERSION}.tar.gz
 AVAGO_DOWNLOAD_PATH=${BASEDIR}/node-linux-${GOARCH}-${LUX_VERSION}.tar.gz
 
 if [[ ${GOOS} == "darwin" ]]; then
-  AVAGO_DOWNLOAD_URL=https://github.com/SkyChains/chain/releases/download/${LUX_VERSION}/node-macos-${LUX_VERSION}.zip
+  AVAGO_DOWNLOAD_URL=https://github.com/skychains/chain/releases/download/${LUX_VERSION}/node-macos-${LUX_VERSION}.zip
   AVAGO_DOWNLOAD_PATH=${BASEDIR}/node-macos-${LUX_VERSION}.zip
 fi
 
@@ -59,7 +59,7 @@ else
     extract_archive
   else
     # else the version is a git commitish (or it's invalid)
-    GIT_CLONE_URL=https://github.com/SkyChains/chain.git
+    GIT_CLONE_URL=https://github.com/skychains/chain.git
     GIT_CLONE_PATH=${BASEDIR}/node-repo/
 
     # check to see if the repo already exists, if not clone it

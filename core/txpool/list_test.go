@@ -31,7 +31,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/SkyChains/evm/core/types"
+	"github.com/skychains/evm/core/types"
 	"github.com/ethereum/go-ethereum/crypto"
 )
 

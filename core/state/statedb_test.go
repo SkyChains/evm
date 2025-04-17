@@ -39,8 +39,8 @@ import (
 	"testing"
 	"testing/quick"
 
-	"github.com/SkyChains/evm/core/rawdb"
-	"github.com/SkyChains/evm/core/types"
+	"github.com/skychains/evm/core/rawdb"
+	"github.com/skychains/evm/core/types"
 	"github.com/ethereum/go-ethereum/common"
 )
 

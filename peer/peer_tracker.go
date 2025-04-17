@@ -8,14 +8,14 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/SkyChains/chain/ids"
-	utils_math "github.com/SkyChains/chain/utils/math"
-	"github.com/SkyChains/chain/utils/set"
-	"github.com/SkyChains/chain/version"
+	"github.com/skychains/chain/ids"
+	utils_math "github.com/skychains/chain/utils/math"
+	"github.com/skychains/chain/utils/set"
+	"github.com/skychains/chain/version"
 
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/SkyChains/evm/metrics"
+	"github.com/skychains/evm/metrics"
 )
 
 const (

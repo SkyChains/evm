@@ -35,10 +35,10 @@ import (
 	"time"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/SkyChains/evm/precompile/contracts/nativeminter"
-	"github.com/SkyChains/evm/precompile/contracts/rewardmanager"
-	"github.com/SkyChains/evm/precompile/contracts/txallowlist"
-	"github.com/SkyChains/evm/utils"
+	"github.com/skychains/evm/precompile/contracts/nativeminter"
+	"github.com/skychains/evm/precompile/contracts/rewardmanager"
+	"github.com/skychains/evm/precompile/contracts/txallowlist"
+	"github.com/skychains/evm/utils"
 	"github.com/stretchr/testify/require"
 )
 

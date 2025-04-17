@@ -31,7 +31,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/SkyChains/evm/core/rawdb"
+	"github.com/skychains/evm/core/rawdb"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 )

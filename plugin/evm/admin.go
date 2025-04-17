@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/SkyChains/chain/api"
-	"github.com/SkyChains/chain/utils/profiler"
+	"github.com/skychains/chain/api"
+	"github.com/skychains/chain/utils/profiler"
 	"github.com/ethereum/go-ethereum/log"
 )
 

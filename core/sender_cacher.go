@@ -29,7 +29,7 @@ package core
 import (
 	"sync"
 
-	"github.com/SkyChains/evm/core/types"
+	"github.com/skychains/evm/core/types"
 )
 
 // txSenderCacherRequest is a request for recovering transaction senders with a

@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/SkyChains/evm/cmd/simulator/config"
-	"github.com/SkyChains/evm/cmd/simulator/load"
+	"github.com/skychains/evm/cmd/simulator/config"
+	"github.com/skychains/evm/cmd/simulator/load"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/spf13/pflag"
 )

@@ -7,7 +7,7 @@ When building developing your own blockchain using `evm`, you may want to analyz
 To build the load simulator, navigate to the base of the simulator directory:
 
 ```bash
-cd $GOPATH/src/github.com/SkyChains/evm/cmd/simulator
+cd $GOPATH/src/github.com/skychains/evm/cmd/simulator
 ```
 
 Build the simulator:
@@ -30,7 +30,7 @@ v0.1.0
 
 To run the load simulator, you must first start an EVM based network. The load simulator works on both the C-Chain and EVM, so we will start a single node network and run the load simulator on the C-Chain.
 
-To start a single node network, follow the instructions from the Luxd [README](https://github.com/SkyChains/chain#building-node) to build from source.
+To start a single node network, follow the instructions from the Luxd [README](https://github.com/skychains/chain#building-node) to build from source.
 
 Once you've built Luxd, open the Luxd directory in a separate terminal window and run a single node non-staking network with the following command:
 

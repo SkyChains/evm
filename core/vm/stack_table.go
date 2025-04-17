@@ -27,7 +27,7 @@
 package vm
 
 import (
-	"github.com/SkyChains/evm/params"
+	"github.com/skychains/evm/params"
 )
 
 func minSwapStack(n int) int {

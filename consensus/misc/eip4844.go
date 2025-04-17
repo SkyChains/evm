@@ -19,7 +19,7 @@ package misc
 import (
 	"math/big"
 
-	"github.com/SkyChains/evm/params"
+	"github.com/skychains/evm/params"
 )
 
 var (

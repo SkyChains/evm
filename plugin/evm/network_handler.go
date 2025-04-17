@@ -6,16 +6,16 @@ package evm
 import (
 	"context"
 
-	"github.com/SkyChains/chain/codec"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/evm/ethdb"
-	"github.com/SkyChains/evm/metrics"
-	"github.com/SkyChains/evm/plugin/evm/message"
-	syncHandlers "github.com/SkyChains/evm/sync/handlers"
-	syncStats "github.com/SkyChains/evm/sync/handlers/stats"
-	"github.com/SkyChains/evm/trie"
-	"github.com/SkyChains/evm/warp"
-	warpHandlers "github.com/SkyChains/evm/warp/handlers"
+	"github.com/skychains/chain/codec"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/evm/ethdb"
+	"github.com/skychains/evm/metrics"
+	"github.com/skychains/evm/plugin/evm/message"
+	syncHandlers "github.com/skychains/evm/sync/handlers"
+	syncStats "github.com/skychains/evm/sync/handlers/stats"
+	"github.com/skychains/evm/trie"
+	"github.com/skychains/evm/warp"
+	warpHandlers "github.com/skychains/evm/warp/handlers"
 )
 
 var _ message.RequestHandler = &networkHandler{}

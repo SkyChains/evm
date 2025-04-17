@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/SkyChains/evm/utils"
+	"github.com/skychains/evm/utils"
 	"github.com/ethereum/go-ethereum/common"
 )
 
